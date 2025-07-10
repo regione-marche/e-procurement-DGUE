@@ -1,0 +1,65 @@
+
+
+    <div class="container panel">
+        <div class="browser">
+            <div class="warning-panel" #warningspanel></div>
+        </div>
+      
+        <div id="body" class="container espd-container">
+            <div class="row" style="padding:50px">
+                <div>
+                    <h2>
+                    {{"START_PAGE.WELCOME" | translate}}
+                    </h2>
+                </div>
+                <div class="welcome-message">
+
+
+                    <div class="alert alert-espd-info">
+                        <ul class="fa-ul">
+                            <li><i class="info-label fas fa-info-circle fa-lg fa-li"></i>
+                                <div id="filter_text"><span><p>{{"START_PAGE.TEXT" | translate}}</p></span></div>
+                            </li>
+                        </ul>
+                    </div>                     
+
+                    <div *ngIf="!isToken" class="tab-content tab-content-integrazione" >
+                        <div class="tab-pane" id="tab_eo" style="display: block;">
+                           <h3>
+                              {{"PAGE_AVVIO.AZIONI" | translate}}
+                           </h3>
+                           <div class="radio">
+                              <span class="k-button fas fa-upload hoverable"></span> <label><input id="action4" name="action" data-target="#tab-single-upload" class="radiotab radioCa" type="radio" value="eo_import_espd" (change)="onItemImportCreate($event,'SA')"><span>{{"PAGE_AVVIO.IMPORTARE_SA" | translate}}</span></label>
+                              <span title="L'operatore economico può importare il file del DGUE che l'amministrazione aggiudicatrice ha precompilato per la procedura di appalto pubblico in questione e pubblicato insieme al bando di gara." class="fas fa-info-circle"></span>
+                           </div>
+                           <div class="radio">
+                              <span class="k-button fas fa-upload hoverable"></span> <label><input id="action5" name="action" data-target="#tab-single-upload" class="radiotab radioCa" type="radio" value="eo_import_espd" (change)="onItemImportCreate($event,'OE')"><span>{{"PAGE_AVVIO.IMPORTARE_OE" | translate}}</span></label>
+                              <span title="L'operatore economico può importare il file del DGUE che l'amministrazione aggiudicatrice ha precompilato per la procedura di appalto pubblico in questione e pubblicato insieme al bando di gara." class="fas fa-info-circle"></span>
+                           </div>                           
+                        </div>
+                        <div class="tab-content" *ngIf="showOptionImportCreate">
+                            <div class="tab-pane" id="tab-single-upload" style="display: block;">
+                               <h3>
+                                  {{"PAGE_AVVIO.CARICARE" | translate}}
+                               </h3>
+                               {{"PAGE_AVVIO.CARICARE_XML" | translate}}
+                               <input #attachments id="attachments" name="attachments" type="file" value=""  (change)="manageFileSelect($event)">               
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <a *ngIf="!isToken && selectUser" (click)=start() class="link-filter link-filter-integrazione">{{"START_PAGE.ACCESS_FROM_PORTALE_E_APPALTI" | translate}}<i class="far fa-arrow-alt-circle-right"></i></a>  
+                    <a *ngIf="isToken && isLoad" (click)=start() class="link-filter link-filter-integrazione">{{"START_PAGE.ACCESS_FROM_PORTALE_E_APPALTI" | translate}}<i class="far fa-arrow-alt-circle-right"></i></a>   
+                    <div class="loader theme-showcase" *ngIf="!isHome">
+                        <div class="loading-mask"></div>
+                        <div class="loading-text">Caricamento in corso...</div>  
+                    </div>
+                    <div class="error-panel error-panel-avvio" #errorspanel></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+

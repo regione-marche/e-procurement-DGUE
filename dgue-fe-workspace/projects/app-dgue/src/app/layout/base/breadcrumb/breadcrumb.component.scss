@@ -1,0 +1,128 @@
+ul {
+    display: block;    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.no-border {
+    border: 0;
+}
+.panel-default {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0px 0px rgba(0,0,0,.05);
+    border: 1px solid transparent;
+}
+
+.nav-wizard {
+    margin-top: 15px;
+}
+
+.nav-justified {
+    width: 100%;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+
+
+.nav-pills.nav-wizard > li:first-child {
+    border-left: 0;
+}
+
+@media (min-width: 777px){
+    .nav-justified>li {
+        display: table-cell;
+        width: 1%;
+    }
+}
+.nav-justified>li {
+    float: none;
+}
+
+
+
+
+.nav-pills.nav-wizard > li:first-child a {
+    border-radius: 0;
+}
+
+.nav-pills.nav-wizard > li > a {
+    padding: 21px 15px;
+}
+/*.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+    color: #fff;
+    background-color: #428bca;
+}*/
+.nav-pills>li.active>a:hover,.nav-pills>li>a:hover{
+    text-decoration: underline!important;
+}
+#avvio>a:hover{
+    text-decoration: none!important;
+}
+
+@media (min-width: 768px){
+    .nav-justified>li>a {
+        margin-bottom: 0;
+    }
+   
+}
+.nav-justified>li>a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+
+.breadcrumb_link{
+    padding: 21px 15px !important;
+}
+
+
+.disabled{
+    a {
+        color: currentColor;
+        cursor: not-allowed;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none!important;
+    }
+}
+
+
+
+
+

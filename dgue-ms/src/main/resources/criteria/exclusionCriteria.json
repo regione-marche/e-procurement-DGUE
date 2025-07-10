@@ -1,0 +1,3313 @@
+{
+    "criteria": [
+      {
+        "name": "Participation in a criminal organisation",
+        "uuid": "005eb9ed-1347-4ca3-bb29-9bc0db64e1ab",
+        "shortName": "Participation in a criminal organisation",
+        "description": "Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for participation in a criminal organisation, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime (OJ L 300, 11.11.2008, p. 42).",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to criminal convictions",
+          "espdType": "CRIMINAL_CONVICTIONS",
+          "code": "CRITERION.EXCLUSION.CONVICTIONS.PARTICIPATION_IN_CRIMINAL_ORGANISATION"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(1)"
+        },
+        "subcriteria":{
+          "name": "Participation in a criminal organisation",
+          "description":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes committed or attempted referred to in Article 416, 416-bis of the Penal Code or for crimes committed using the conditions set out in the Article 416-bis or in order to facilitate the activity of the associations provided for by the same article, as well as for crimes, committed or attempted, provided for by Article 74 of Decree of the President of the Republic No. 309/1990, by Article 291-quater of the Decree of the President of the Republic No. 43/1973 and Article 260 of Legislative Decree No. 152/2006, relating to participation in a criminal organisation as defined in Article 2 of Council Framework Decision 2008/841/JHA? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 has ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned).",
+          "uuid": "2a189b3c-d2e1-442b-b5eb-7b06a7e6fc0e",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "7c637c0c-7703-4389-ba52-02997a055bd7",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",                
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "unbounded": "true",
+                "requirements": [
+                  {
+                    "id": "ecf40999-7b64-4e10-b960-7f8ff8674cf6",
+                    "description": "Date of conviction",
+                    "responseType": "DATE",
+                    "espdCriterionFields": [
+                      "dateOfConviction"
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Lenght of Conviction",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate2",
+                      "endDate2"
+                    ]
+                  },
+                  {
+                    "id": "7d35fb7c-da5b-4830-b598-4f347a04dceb",
+                    "description": "Reason",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "reason"
+                    ]
+                  },
+                  {
+                    "id": "c5012430-14da-454c-9d01-34cedc6a7ded",
+                    "description": "Who has been convicted",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "convicted"
+                    ]
+                  },
+                  {
+                    "id": "9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8",
+                    "description": "Length of the period of exclusion",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate",
+                      "endDate"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                    "PropertyGroupTypeCode": "ON*",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                        "description": "Is this information available electronically?",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "infoElectronicallyAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "",
+                            "description": "Evidence Supplied",
+                            "responseType": "EVIDENCE_IDENTIFIER",
+                            "espdCriterionFields": [
+                              "evidence"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },                
+                  {
+                    "name": "G1.1.2",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"(Self-Cleaning)",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.2.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                        
+                        ]                        
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }     
+        ],
+        "espdDocumentField": "criminalConvictions"
+      },
+      {
+        "name": "Corruption",
+        "uuid": "c27b7c4e-c837-4529-b867-ed55ce639db5",
+        "shortName": "Corruption",
+        "description": "Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for corruption, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 3 of the Convention on the fight against corruption involving officials of the European Communities or officials of Member States of the European Union, OJ C 195, 25.6.1997, p. 1, and in Article 2(1) of Council Framework Decision 2003/568/JHA of 22 July 2003 on combating corruption in the private sector (OJ L 192, 31.7.2003, p. 54). This exclusion ground also includes corruption as defined in the national law of the contracting authority (contracting entity) or the economic operator.",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to criminal convictions",
+          "espdType": "CRIMINAL_CONVICTIONS",
+          "code": "CRITERION.EXCLUSION.CONVICTIONS.CORRUPTION"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(1)"
+        },
+        "subcriteria":{
+          "name": "Corruption",
+          "description":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes committed or attempted referred to in Articles 317, 318, 319, 319-ter, 319-quater, 320, 321, 322, 322-bis, 346-bis, 353, 353-bis, 354, 355 e 356 of the Penal Code or in Article 2635 of the Civil Code? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned).",
+          "uuid": "df88ac50-8626-4f9f-b76a-ac168b77003c",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "7c637c0c-7703-4389-ba52-02997a055bd7",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "unbounded": "true",
+                "requirements": [
+                  {
+                    "id": "ecf40999-7b64-4e10-b960-7f8ff8674cf6",
+                    "description": "Date of conviction",
+                    "responseType": "DATE",
+                    "espdCriterionFields": [
+                      "dateOfConviction"
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Lenght of Conviction",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate2",
+                      "endDate2"
+                    ]
+                  },
+                  {
+                    "id": "7d35fb7c-da5b-4830-b598-4f347a04dceb",
+                    "description": "Reason",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "reason"
+                    ]
+                  },
+                  {
+                    "id": "c5012430-14da-454c-9d01-34cedc6a7ded",
+                    "description": "Who has been convicted",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "convicted"
+                    ]
+                  },
+                  {
+                    "id": "9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8",
+                    "description": "Length of the period of exclusion",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate",
+                      "endDate"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                    "PropertyGroupTypeCode": "ON*",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                        "description": "Is this information available electronically?",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "infoElectronicallyAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "",
+                            "description": "Evidence Supplied",
+                            "responseType": "EVIDENCE_IDENTIFIER",
+                            "espdCriterionFields": [
+                              "evidence"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "G1.1.2",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"(Self-Cleaning)",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.2.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                        
+                        ]                        
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "corruption"
+      },
+      {
+        "name": "Fraud",
+        "uuid": "297d2323-3ede-424e-94bc-a91561e6f320",
+        "shortName": "Fraud",
+        "description": "Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for fraud, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? Within the meaning of Article 1 of the Convention on the protection of the European Communities' financial interests (OJ C 316, 27.11.1995, p. 48).",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to criminal convictions",
+          "espdType": "CRIMINAL_CONVICTIONS",
+          "code": "CRITERION.EXCLUSION.CONVICTIONS.FRAUD"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(1)"
+        },
+        "subcriteria":{
+          "name": "Fraud",
+          "description":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for froud crime as defined in Article 1 of the Convention on the protection of the European Communities' financial interests? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned).",
+          "uuid": "4832e06a-abe2-47f4-ba84-2e90d7d7bae6",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "7c637c0c-7703-4389-ba52-02997a055bd7",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                 "unbounded": "true",
+                "requirements": [
+                  {
+                    "id": "ecf40999-7b64-4e10-b960-7f8ff8674cf6",
+                    "description": "Date of conviction",
+                    "responseType": "DATE",
+                    "espdCriterionFields": [
+                      "dateOfConviction"
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Lenght of Conviction",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate2",
+                      "endDate2"
+                    ]
+                  },
+                  {
+                    "id": "7d35fb7c-da5b-4830-b598-4f347a04dceb",
+                    "description": "Reason",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "reason"
+                    ]
+                  },
+                  {
+                    "id": "c5012430-14da-454c-9d01-34cedc6a7ded",
+                    "description": "Who has been convicted",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "convicted"
+                    ]
+                  },
+                  {
+                    "id": "9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8",
+                    "description": "Length of the period of exclusion",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate",
+                      "endDate"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                    "PropertyGroupTypeCode": "ON*",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                        "description": "Is this information available electronically?",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "infoElectronicallyAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "",
+                            "description": "Evidence Supplied",
+                            "responseType": "EVIDENCE_IDENTIFIER",
+                            "espdCriterionFields": [
+                              "evidence"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "G1.1.2",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"(Self-Cleaning)",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.2.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                        
+                        ]                        
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "fraud"
+      },
+      {
+        "name": "Terrorist offences or offences linked to terrorist activities",
+        "uuid": "d486fb70-86b3-4e75-97f2-0d71b5697c7d",
+        "shortName": "Terrorist offences or offences linked to terrorist activities",
+        "description": "Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for terrorist offences or offences linked to terrorist activities, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Articles 1 and 3 of Council Framework Decision of 13 June 2002 on combating terrorism (OJ L 164, 22.6.2002, p. 3). This exclusion ground also includes inciting or aiding or abetting or attempting to commit an offence, as referred to in Article 4 of that Framework Decision.",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to criminal convictions",
+          "espdType": "CRIMINAL_CONVICTIONS",
+          "code": "CRITERION.EXCLUSION.CONVICTIONS.TERRORIST_OFFENCES"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(1)"
+        },
+        "subcriteria":{
+          "name": "Terrorist offences or offences linked to terrorist activities",
+          "description":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes, committed or attempted, in connection with terrorism, even internationally, or subversion of constitutional order, terrorist offences or offences linked to terrorist activities? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned).",
+          "uuid": "e55df482-f470-44ae-9304-9409a70baecf",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "7c637c0c-7703-4389-ba52-02997a055bd7",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "unbounded": "true",
+                "requirements": [
+                  {
+                    "id": "ecf40999-7b64-4e10-b960-7f8ff8674cf6",
+                    "description": "Date of conviction",
+                    "responseType": "DATE",
+                    "espdCriterionFields": [
+                      "dateOfConviction"
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Lenght of Conviction",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate2",
+                      "endDate2"
+                    ]
+                  },
+                  {
+                    "id": "7d35fb7c-da5b-4830-b598-4f347a04dceb",
+                    "description": "Reason",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "reason"
+                    ]
+                  },
+                  {
+                    "id": "c5012430-14da-454c-9d01-34cedc6a7ded",
+                    "description": "Who has been convicted",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "convicted"
+                    ]
+                  },
+                  {
+                    "id": "9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8",
+                    "description": "Length of the period of exclusion",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate",
+                      "endDate"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                    "PropertyGroupTypeCode": "ON*",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                        "description": "Is this information available electronically?",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "infoElectronicallyAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "",
+                            "description": "Evidence Supplied",
+                            "responseType": "EVIDENCE_IDENTIFIER",
+                            "espdCriterionFields": [
+                              "evidence"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "G1.1.2",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"(Self-Cleaning)",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.2.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                        
+                        ]                        
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "terroristOffences"
+      },
+      {
+        "name": "Money laundering or terrorist financing",
+        "uuid": "47112079-6fec-47a3-988f-e561668c3aef",
+        "shortName": "Money laundering or terrorist financing",
+        "description": "Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for money laundering or terrorist financing, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 1 of Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing (OJ L 309, 25.11.2005, p. 15).",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to criminal convictions",
+          "espdType": "CRIMINAL_CONVICTIONS",
+          "code": "CRITERION.EXCLUSION.CONVICTIONS.MONEY_LAUNDERING"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(1)"
+        },
+        "subcriteria":{
+          "name": "Money laundering or terrorist financing",
+          "description":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuanto to Article 444 of the Code of Criminal Procedure, for crimes as defined in Article 648-bis, 648-ter e 648-ter.1 of the Penal Code, money laundering or terrorist financing, as defined in Article 1 of Legislative Decree No. 109/2007? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned).",
+          "uuid": "aab097fe-d23c-4d5e-9b1f-681962adb632",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "7c637c0c-7703-4389-ba52-02997a055bd7",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                 "unbounded": "true",
+                "requirements": [
+                  {
+                    "id": "ecf40999-7b64-4e10-b960-7f8ff8674cf6",
+                    "description": "Date of conviction",
+                    "responseType": "DATE",
+                    "espdCriterionFields": [
+                      "dateOfConviction"
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Lenght of Conviction",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate2",
+                      "endDate2"
+                    ]
+                  },
+                  {
+                    "id": "7d35fb7c-da5b-4830-b598-4f347a04dceb",
+                    "description": "Reason",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "reason"
+                    ]
+                  },
+                  {
+                    "id": "c5012430-14da-454c-9d01-34cedc6a7ded",
+                    "description": "Who has been convicted",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "convicted"
+                    ]
+                  },
+                  {
+                    "id": "9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8",
+                    "description": "Length of the period of exclusion",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate",
+                      "endDate"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                    "PropertyGroupTypeCode": "ON*",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                        "description": "Is this information available electronically?",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "infoElectronicallyAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "",
+                            "description": "Evidence Supplied",
+                            "responseType": "EVIDENCE_IDENTIFIER",
+                            "espdCriterionFields": [
+                              "evidence"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "G1.1.2",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"(Self-Cleaning)",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.2.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                        
+                        ]                        
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "moneyLaundering"
+      },
+      {
+        "name": "Child labour and other forms of trafficking in human beings",
+        "uuid": "d789d01a-fe03-4ccd-9898-73f9cfa080d1",
+        "shortName": "Child labour and other forms of trafficking in human beings",
+        "description": "Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgment for child labour and other forms of trafficking in human beings, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 2 of Directive 2011/36/EU of the European Parliament and of the Council of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims, and replacing Council Framework Decision 2002/629/JHA (OJ L 101, 15.4.2011, p. 1).",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to criminal convictions",
+          "espdType": "CRIMINAL_CONVICTIONS",
+          "code": "CRITERION.EXCLUSION.CONVICTIONS.CHILD_LABOUR-HUMAN_TRAFFICKING"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(1)"
+        },
+        "subcriteria":{
+          "name": "Child labour and other forms of trafficking in human beings",
+          "description":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes of exploitation of child labor and other forms of trafficking in human beings defined by the Legislative Decree n. 24/2014? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned).",
+          "uuid": "aab097fe-d23c-4d5e-9b1f-681962adb632",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "7317741e-056e-4ccb-a96c-6ebec82aefb3",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "7c637c0c-7703-4389-ba52-02997a055bd7",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "f5276600-a2b6-4ff6-a90e-b31fe19dae41",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                 "unbounded": "true",
+                "requirements": [
+                  {
+                    "id": "ecf40999-7b64-4e10-b960-7f8ff8674cf6",
+                    "description": "Date of conviction",
+                    "responseType": "DATE",
+                    "espdCriterionFields": [
+                      "dateOfConviction"
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Lenght of Conviction",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate2",
+                      "endDate2"
+                    ]
+                  },
+                  {
+                    "id": "7d35fb7c-da5b-4830-b598-4f347a04dceb",
+                    "description": "Reason",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "reason"
+                    ]
+                  },
+                  {
+                    "id": "c5012430-14da-454c-9d01-34cedc6a7ded",
+                    "description": "Who has been convicted",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "convicted"
+                    ]
+                  },
+                  {
+                    "id": "9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8",
+                    "description": "Length of the period of exclusion",
+                    "responseType": "PERIOD",
+                    "espdCriterionFields": [
+                      "startDate",
+                      "endDate"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                    "PropertyGroupTypeCode": "ON*",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                        "description": "Is this information available electronically?",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "infoElectronicallyAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "",
+                            "description": "Evidence Supplied",
+                            "responseType": "EVIDENCE_IDENTIFIER",
+                            "espdCriterionFields": [
+                              "evidence"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "G1.1.2",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"(Self-Cleaning)",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.2.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                        
+                        ]                        
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "childLabour"
+      },
+      {
+        "name": "Payment of taxes",
+        "uuid": "b61bbeb7-690e-4a40-bc68-d6d4ecfaa3d4",
+        "shortName": "Payment of taxes",
+        "description": "Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to the payment of taxes contributions",
+          "espdType": "PAYMENT_OF_TAXES",
+          "code": "CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_TAXES"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(2)"
+        },
+        "subcriteria":{
+          "name": "Payment of taxes",
+          "description":"Has the economic operator breached the obligations relating to the payment of taxes and duties, according to the Italian legislation or the legislation of the State of estabilishment?",
+          "uuid": "430b23cb-8ea2-4b8c-a5a2-6f75b2de85ee",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },        
+        "groups": [
+          {
+            "name": "G0",
+            "id": "53c9aad8-dc80-48f8-85d9-755c2aab8e95",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "fd15eb07-c5dd-4ce5-be25-725150fd4593",
+                "typeCode":"REQUIREMENT",
+                "description": "Threshold",
+                "responseType": "AMOUNT",
+                "espdCriterionFields": [
+                  "threshold",
+                  "currency"
+                ]
+              },
+              {
+                "id": "c182c903-39a6-4f2d-9877-7b9e631bcfaf",
+                "typeCode":"REQUIREMENT",
+                "description": "Additional Information",
+                "responseType": "DESCRIPTION",
+                "espdCriterionFields": [
+                  "additionalInfo"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1",
+                "id": "098fd3cc-466e-4233-af1a-affe09471bce",
+                "PropertyGroupTypeCode": "ON*",
+                "requirements": [
+                  {
+                    "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                    "description": "Your answer",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "answer"
+                    ]
+                  }
+                ],
+
+                "subgroups": [
+                  {
+                    "name": "G1.1",
+                    "id": "f8499787-f9f8-4355-95e2-9784426f4d7b",
+                    "PropertyGroupTypeCode": "ONTRUE",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "6c87d3d4-e8eb-4253-b385-6373020ab886",
+                        "description": "Country or member state concerned",
+                        "responseType": "CODE_COUNTRY",
+                        "espdCriterionFields": [
+                          "country"
+                        ]
+                      },
+                      {
+                        "id": "9052cc59-cfe5-41c6-a314-02a7f378ffe8",
+                        "description": "Amount concerned",
+                        "responseType": "AMOUNT",
+                        "espdCriterionFields": [
+                          "amount",
+                          "currency2"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1",
+                        "id": "7c2aec9f-4876-4c33-89e6-2ab6d6cf5d02",
+                        "PropertyGroupTypeCode": "ON*",
+                        "requirements": [
+                          {
+                            "id": "9b4497e6-a166-46f9-8581-7fc39ff975c4",
+                            "description": "Has this breach of obligations been established by means other than a judicial or administrative decision?",
+                            "responseType": "INDICATOR",
+                            "espdCriterionFields": [
+                              "breachEstablishedOtherThanJudicialDecision"
+                            ]
+                          }
+                        ],
+                        "subgroups": [
+                          {
+                            "name": "G1.1.1.1",
+                            "id": "3cb7abf1-662a-4756-b61c-7bc716c1fafc",
+                            "PropertyGroupTypeCode": "ONTRUE",
+                            "fulfillmentIndicator": "true",
+                            "requirements": [
+                              {
+                                "id": "201f11c3-1fa2-4464-acc0-f021266fd881",
+                                "description": "Please describe which means were used",
+                                "responseType": "DESCRIPTION",
+                                "espdCriterionFields": [
+                                  "meansDescription"
+                                ]
+                              }
+                            ],
+                            "subgroups":[
+                              {
+                                "name": "G1.1.3",
+                                "id": "fc57e473-d63e-4a04-b589-dcf81cab8052",
+                                "PropertyGroupTypeCode": "ON*",
+                                "requirements": [
+                                  {
+                                    "id": "70f8697b-8953-411a-a489-4ff62e5250d2",
+                                    "description": "Has the economic operator fulfilled its obligations by paying or entering into a binding arrangement with a view to paying the taxes or social security contributions due, including, where applicable, any interest accrued or fines?",
+                                    "responseType": "INDICATOR",
+                                    "espdCriterionFields": [
+                                      "eoFulfilledObligations"
+                                    ]
+                                  }
+                                ],
+                                "subgroups": [
+                                  {
+                                    "name": "G1.1.3.1",
+                                    "id": "6c3609e1-9add-4fa9-9409-62ce72ae4548",
+                                    "PropertyGroupTypeCode": "ONTRUE",
+                                    "fulfillmentIndicator": "true",
+                                    "requirements": [
+                                      {
+                                        "id": "55905dd0-38f0-4f93-8c74-5ae05a21afc5",
+                                        "description": "Please describe them",
+                                        "responseType": "DESCRIPTION",
+                                        "espdCriterionFields": [
+                                          "obligationsDescription"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },                        
+                          {
+                            "name": "G1.1.2",
+                            "id": "c882afa4-6971-4b00-8970-0c283eb122cc",
+                            "PropertyGroupTypeCode": "ONFALSE",
+                            "requirements": [
+                              {
+                                "id": "08b0c984-c5e6-4143-8493-868c39745637",
+                                "description": "If this breach of obligations was established through a judicial or administrative decision, was this decision final and binding?",
+                                "responseType": "INDICATOR",
+                                "espdCriterionFields": [
+                                  "decisionFinalAndBinding"
+                                ]
+                              }
+                            ],
+                            "subgroups": [
+                              {
+                                "name": "G1.1.2.1",
+                                "id": "815422d6-f8a1-418a-8bf0-3524f7c8f721",
+                                "PropertyGroupTypeCode": "ONTRUE",
+                                "fulfillmentIndicator": "true",
+                                "requirements": [
+                                  {
+                                    "id": "ecf40999-7b64-4e10-b960-7f8ff8674cf6",
+                                    "description": "Please indicate the date of conviction or decision",
+                                    "responseType": "DATE",
+                                    "espdCriterionFields": [
+                                      "dateOfConviction"
+                                    ]
+                                  },
+                                  {
+                                    "id": "9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8",
+                                    "description": "In case of a conviction insofar as established directly therein, the length of the period of exclusion",
+                                    "responseType": "PERIOD",
+                                    "espdCriterionFields": [
+                                      "startDate",
+                                      "endDate"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }                      
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "G2",
+                "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                "PropertyGroupTypeCode": "ON*",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                    "description": "Is this information available electronically?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "infoElectronicallyAnswer"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G2.1",
+                    "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                    "PropertyGroupTypeCode": "ONTRUE",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "",
+                        "description": "Evidence Supplied",
+                        "responseType": "EVIDENCE_IDENTIFIER",
+                        "espdCriterionFields": [
+                          "evidence"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "paymentTaxes"
+      },
+      {
+        "name": "Payment of social security contributions",
+        "uuid": "7d85e333-bbab-49c0-be8d-c36d71a72f5e",
+        "shortName": "Payment of social security contributions",
+        "description": "Has the economic operator breached its obligations relating to the payment social security contributions, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to the payment of social security contributions",
+          "espdType": "PAYMENT_OF_SOCIAL_SECURITY",
+          "code": "CRITERION.EXCLUSION.CONTRIBUTIONS.PAYMENT_OF_SOCIAL_SECURITY"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(2)"
+        },
+        "subcriteria":{
+          "name": "Payment of social security contributions",
+          "description":"Has the economic operator breached the obligations relating to the payment of social security contributions, according to the Italian legislation or the legislation of the State where it is established?",
+          "uuid": "3a7e3b03-9cb2-423b-85b9-f03fa3aeb094",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G0",
+            "id": "53c9aad8-dc80-48f8-85d9-755c2aab8e95",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "fd15eb07-c5dd-4ce5-be25-725150fd4593",
+                "typeCode":"REQUIREMENT",
+                "description": "Threshold",
+                "responseType": "AMOUNT",
+                "espdCriterionFields": [
+                  "threshold",
+                  "currency"
+                ]
+              },
+              {
+                "id": "c182c903-39a6-4f2d-9877-7b9e631bcfaf",
+                "typeCode":"REQUIREMENT",
+                "description": "Additional Information",
+                "responseType": "DESCRIPTION",
+                "espdCriterionFields": [
+                  "additionalInfo"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1",
+                "id": "098fd3cc-466e-4233-af1a-affe09471bce",
+                "PropertyGroupTypeCode": "ON*",
+                "requirements": [
+                  {
+                    "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                    "description": "Your answer",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "answer"
+                    ]
+                  }
+                ],
+
+                "subgroups": [
+                  {
+                    "name": "G1.1",
+                    "id": "f8499787-f9f8-4355-95e2-9784426f4d7b",
+                    "PropertyGroupTypeCode": "ONTRUE",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "6c87d3d4-e8eb-4253-b385-6373020ab886",
+                        "description": "Country or member state concerned",
+                        "responseType": "CODE_COUNTRY",
+                        "espdCriterionFields": [
+                          "country"
+                        ]
+                      },
+                      {
+                        "id": "9052cc59-cfe5-41c6-a314-02a7f378ffe8",
+                        "description": "Amount concerned",
+                        "responseType": "AMOUNT",
+                        "espdCriterionFields": [
+                          "amount",
+                          "currency2"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1",
+                        "id": "7c2aec9f-4876-4c33-89e6-2ab6d6cf5d02",
+                        "PropertyGroupTypeCode": "ON*",
+                        "requirements": [
+                          {
+                            "id": "9b4497e6-a166-46f9-8581-7fc39ff975c4",
+                            "description": "Has this breach of obligations been established by means other than a judicial or administrative decision?",
+                            "responseType": "INDICATOR",
+                            "espdCriterionFields": [
+                              "breachEstablishedOtherThanJudicialDecision"
+                            ]
+                          }
+                        ],
+                        "subgroups": [
+                          {
+                            "name": "G1.1.1.1",
+                            "id": "3cb7abf1-662a-4756-b61c-7bc716c1fafc",
+                            "PropertyGroupTypeCode": "ONTRUE",
+                            "fulfillmentIndicator": "true",
+                            "requirements": [
+                              {
+                                "id": "201f11c3-1fa2-4464-acc0-f021266fd881",
+                                "description": "Please describe which means were used",
+                                "responseType": "DESCRIPTION",
+                                "espdCriterionFields": [
+                                  "meansDescription"
+                                ]
+                              }
+                            ],
+                            "subgroups":[
+                              {
+                                "name": "G1.1.3",
+                                "id": "fc57e473-d63e-4a04-b589-dcf81cab8052",
+                                "PropertyGroupTypeCode": "ON*",
+                                "requirements": [
+                                  {
+                                    "id": "70f8697b-8953-411a-a489-4ff62e5250d2",
+                                    "description": "Has the economic operator fulfilled its obligations by paying or entering into a binding arrangement with a view to paying the taxes or social security contributions due, including, where applicable, any interest accrued or fines?",
+                                    "responseType": "INDICATOR",
+                                    "espdCriterionFields": [
+                                      "eoFulfilledObligations"
+                                    ]
+                                  }
+                                ],
+                                "subgroups": [
+                                  {
+                                    "name": "G1.1.3.1",
+                                    "id": "6c3609e1-9add-4fa9-9409-62ce72ae4548",
+                                    "PropertyGroupTypeCode": "ONTRUE",
+                                    "fulfillmentIndicator": "true",
+                                    "requirements": [
+                                      {
+                                        "id": "55905dd0-38f0-4f93-8c74-5ae05a21afc5",
+                                        "description": "Please describe them",
+                                        "responseType": "DESCRIPTION",
+                                        "espdCriterionFields": [
+                                          "obligationsDescription"
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },                        
+                          {
+                            "name": "G1.1.2",
+                            "id": "c882afa4-6971-4b00-8970-0c283eb122cc",
+                            "PropertyGroupTypeCode": "ONFALSE",
+                            "requirements": [
+                              {
+                                "id": "08b0c984-c5e6-4143-8493-868c39745637",
+                                "description": "If this breach of obligations was established through a judicial or administrative decision, was this decision final and binding?",
+                                "responseType": "INDICATOR",
+                                "espdCriterionFields": [
+                                  "decisionFinalAndBinding"
+                                ]
+                              }
+                            ],
+                            "subgroups": [
+                              {
+                                "name": "G1.1.2.1",
+                                "id": "815422d6-f8a1-418a-8bf0-3524f7c8f721",
+                                "PropertyGroupTypeCode": "ONTRUE",
+                                "fulfillmentIndicator": "true",
+                                "requirements": [
+                                  {
+                                    "id": "ecf40999-7b64-4e10-b960-7f8ff8674cf6",
+                                    "description": "Please indicate the date of conviction or decision",
+                                    "responseType": "DATE",
+                                    "espdCriterionFields": [
+                                      "dateOfConviction"
+                                    ]
+                                  },
+                                  {
+                                    "id": "9ca9096f-edd2-4f19-b6b1-b55c83a2d5c8",
+                                    "description": "In case of a conviction insofar as established directly therein, the length of the period of exclusion",
+                                    "responseType": "PERIOD",
+                                    "espdCriterionFields": [
+                                      "startDate",
+                                      "endDate"
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }                      
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "G2",
+                "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                "PropertyGroupTypeCode": "ON*",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                    "description": "Is this information available electronically?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "infoElectronicallyAnswer"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G2.1",
+                    "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                    "PropertyGroupTypeCode": "ONTRUE",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "",
+                        "description": "Evidence Supplied",
+                        "responseType": "EVIDENCE_IDENTIFIER",
+                        "espdCriterionFields": [
+                          "evidence"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "paymentSocialSecurity"
+      },
+      {
+        "name": "Obligations in the fields of environmental law",
+        "uuid": "a80ddb62-d25b-4e4e-ae22-3968460dc0a9",
+        "shortName": "Breaching of obligations in the fields of environmental law",
+        "description": "Has the economic operator, to its knowledge, breached its obligations in the fields of environmental law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to the breaching of environmental laws",
+          "espdType": "ENVIRONMENTAL_LAW",
+          "code": "CRITERION.EXCLUSION.SOCIAL.ENVIRONMENTAL_LAW"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "obligations in the fields of environmental law",
+          "description":"Has the economic operator breached the obligations relating to environmental law as defined in national and European law, collective agreements or international provisions listed in Annex X of the Legislative Decree no. 50/2016?. (The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has ended).",
+          "uuid": "e1ecac7a-5d3e-41b4-8687-d97b5ea2f7fa",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "976b5acb-c00f-46ca-8f83-5ce6abfdfe43",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "64a2102c-4af1-4ecb-97b3-0c41907ec0f6",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"(Self-Cleaning)",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                          
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }        
+        ],
+        "espdDocumentField": "breachingObligationsEnvironmental"
+      },
+      {
+        "name": "Breaching of obligations in the fields of social law",
+        "uuid": "a261a395-ed17-4939-9c75-b9ff1109ca6e",
+        "shortName": "Breaching of obligations in the fields of social law",
+        "description": "Has the economic operator, to its knowledge, breached its obligations in the fields of social law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to the breaching of social laws",
+          "espdType": "SOCIAL_LAW",
+          "code": "CRITERION.EXCLUSION.SOCIAL.SOCIAL_LAW"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "obligations in the fields of social law",
+          "description":"Has the economic operator breached the obligations relating to social law as defined in national and European law, collective agreements or international provisions listed in Annex X of the Legislative Decree no. 50/2016? The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has ended.",
+          "uuid": "0a9eae08-089c-4877-806f-d9146183a03d",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "976b5acb-c00f-46ca-8f83-5ce6abfdfe43",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "64a2102c-4af1-4ecb-97b3-0c41907ec0f6",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"(Self-Cleaning)",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                          
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "breachingObligationsSocial"
+      },
+      {
+        "name": "Breaching of obligations in the fields of labour law",
+        "uuid": "a34b70d6-c43d-4726-9a88-8e2b438424bf",
+        "shortName": "Breaching of obligations in the fields of labour law",
+        "description": "Has the economic operator, to its knowledge, breached its obligations in the fields of labour law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2014/24/EU.",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to the breaching of labour laws",
+          "espdType": "LABOUR_LAW",
+          "code": "CRITERION.EXCLUSION.SOCIAL.LABOUR_LAW"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "obligations in the fields of labour law",
+          "description":"Has the economic operator breached the obligations relating to labor law as defined in national and European law, collective agreements or international provisions listed in Annex X of the Legislative Decree no. 50/2016? (The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 is ended).",
+          "uuid": "d634ccdd-0d08-482b-9f5a-dd20ebccfb44",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "976b5acb-c00f-46ca-8f83-5ce6abfdfe43",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "64a2102c-4af1-4ecb-97b3-0c41907ec0f6",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"(Self-Cleaning)",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                        
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "breachingObligationsLabour"
+      },
+      {
+        "name": "Bankruptcy",
+        "uuid": "d3732c09-7d62-4edc-a172-241da6636e7c",
+        "shortName": "Bankruptcy",
+        "description": "Is the economic operator bankrupt? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.",
+        "criterionType": {
+          "description": "Grounds for exclusion for bankruptcy or insolvency",
+          "espdType": "BANKRUPTCY_INSOLVENCY",
+          "code": "CRITERION.EXCLUSION.BUSINESS.BANKRUPTCY"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Bankruptcy",
+          "description":"Is the economic operator bankrupt or is a bankruptcy proceeding pending?",
+          "uuid": "b1d753a0-874b-4d49-a0fa-f7a3bf373181",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "d91c11a1-f19e-4b83-8ade-c4be2bf00555",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "aeef523b-c8fc-4dba-9c34-03e34812567b",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  },
+                  {
+                    "id": "4e3f468a-86c4-4c99-bd15-c8b221229348",
+                    "description": "Indicate reasons for being nevertheless to perform the contract",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "reason"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "G2",
+                "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                "PropertyGroupTypeCode": "ON*",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                    "description": "Is this information available electronically?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "infoElectronicallyAnswer"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G2.1",
+                    "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                    "PropertyGroupTypeCode": "ONTRUE",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "",
+                        "description": "Evidence Supplied",
+                        "responseType": "EVIDENCE_IDENTIFIER",
+                        "espdCriterionFields": [
+                          "evidence"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }          
+        ],
+        "espdDocumentField": "bankruptcy"
+      },
+      {
+        "name": "Insolvency",
+        "uuid": "396f288a-e267-4c20-851a-ed4f7498f137",
+        "shortName": "Insolvency",
+        "description": "Is the economic operator the subject of insolvency or winding-up? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.",
+        "criterionType": {
+          "description": "Grounds for exclusion for bankruptcy or insolvency",
+          "espdType": "BANKRUPTCY_INSOLVENCY",
+          "code": "CRITERION.EXCLUSION.BUSINESS.INSOLVENCY"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Insolvency",
+          "description":"Is the economic operator the subject of winding-up or is a compulsory winding up procedure pending?",
+          "uuid": "51fb0fa9-318a-4a63-813e-eae8389678ba",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "d91c11a1-f19e-4b83-8ade-c4be2bf00555",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "aeef523b-c8fc-4dba-9c34-03e34812567b",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  },
+                  {
+                    "id": "4e3f468a-86c4-4c99-bd15-c8b221229348",
+                    "description": "Indicate reasons for being nevertheless to perform the contract",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "reason"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "G2",
+                "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                "PropertyGroupTypeCode": "ON*",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                    "description": "Is this information available electronically?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "infoElectronicallyAnswer"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G2.1",
+                    "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                    "PropertyGroupTypeCode": "ONTRUE",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "",
+                        "description": "Evidence Supplied",
+                        "responseType": "EVIDENCE_IDENTIFIER",
+                        "espdCriterionFields": [
+                          "evidence"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }        
+        ],
+        "espdDocumentField": "insolvency"
+      },
+      {
+        "name": "Arrangement with creditors",
+        "uuid": "68918c7a-f5bc-4a1a-a62f-ad8983600d48",
+        "shortName": "Arrangement with creditors",
+        "description": "Is the economic operator in arrangement with creditors? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.",
+        "criterionType": {
+          "description": "Grounds for exclusion for bankruptcy or insolvency",
+          "espdType": "BANKRUPTCY_INSOLVENCY",
+          "code": "CRITERION.EXCLUSION.BUSINESS.CREDITORS_ARRANGEMENT"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Arrangement with creditors",
+          "description":"Is the economic operator in arrangement with creditors or is an admission to creditors pending?",
+          "uuid": "91495be4-019d-4b0f-86c1-98659004cd98",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "d91c11a1-f19e-4b83-8ade-c4be2bf00555",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "aeef523b-c8fc-4dba-9c34-03e34812567b",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  },
+                  {
+                    "id": "4e3f468a-86c4-4c99-bd15-c8b221229348",
+                    "description": "Indicate reasons for being nevertheless to perform the contract",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "reason"
+                    ]
+                  }                              
+                ]
+              },
+              {
+                "name": "G2",
+                "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+                "PropertyGroupTypeCode": "ON*",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                    "description": "Is this information available electronically?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "infoElectronicallyAnswer"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G2.1",
+                    "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                    "PropertyGroupTypeCode": "ONTRUE",
+                    "fulfillmentIndicator": "true",
+                    "requirements": [
+                      {
+                        "id": "",
+                        "description": "Evidence Supplied",
+                        "responseType": "EVIDENCE_IDENTIFIER",
+                        "espdCriterionFields": [
+                          "evidence"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }          
+        ],
+        "espdDocumentField": "arrangementWithCreditors"
+      },
+      {
+        "name": "Guilty of grave professional misconduct",
+        "uuid": "514d3fde-1e3e-4dcd-b02a-9f984d5bbda3",
+        "shortName": "Guilty of grave professional misconduct",
+        "description": "Is the economic operator  guilty of grave professional misconduct? Where applicable, see definitions in national law, the relevant notice or the procurement documents.",
+        "criterionType": {
+          "description": "Grounds for exclusion for misconduct",
+          "espdType": "MISCONDUCT",
+          "code": "CRITERION.EXCLUSION.MISCONDUCT.MC_PROFESSIONAL"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Guilty of grave professional misconduct",
+          "description":"Is the economic operator guilty of serious professional misconduct? The economic operator does not have to declare the breach if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 is ended.",
+          "uuid": "f48a2040-f56f-4d6f-9e1e-40711a8df4c8",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "2cbcf978-765c-40aa-996b-b1d082485cef",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability",
+                        "descriptionSearch":"reliability",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "guiltyGrave"
+      },
+      {
+        "name": "Agreements with other economic operators aimed at distorting competition",
+        "uuid": "56d13e3d-76e8-4f23-8af6-13e60a2ee356",
+        "shortName": "Agreements with other economic operators aimed at distorting competition",
+        "description": "Has the economic operator entered into agreements with other economic operators aimed at distorting competition?",
+        "criterionType": {
+          "description": "Grounds for exclusion related to market distortion",
+          "espdType": "DISTORTING_MARKET",
+          "code": "CRITERION.EXCLUSION.MISCONDUCT.MARKET_DISTORTION"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Agreements with other economic operators aimed at distorting competition",
+          "description":"Has the economic operator received an antitrust provision by the competent national authority establishing that he has entered into agreements with other economic operators aimed at distorting competition? The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has ended.",
+          "uuid": "4522fbeb-adf1-4c10-bb7a-580d8dcc8199",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "2cbcf978-765c-40aa-996b-b1d082485cef",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"Self-Cleaning",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "agreementsWithOtherEO"
+      },
+      {
+        "name": "Conflict of interest due to its participation in the procurement procedure",
+        "uuid": "b1b5ac18-f393-4280-9659-1367943c1a2e",
+        "shortName": "Conflict of interest due to its participation in the procurement procedure",
+        "description": "Is the economic operator aware of any conflict of interest, as indicated in national law, the relevant notice or the procurement documents due to its participation in the procurement procedure?",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to possible conflicts of interests",
+          "espdType": "CONFLICT_OF_INTEREST",
+          "code": "CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PARTICIPATION"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Conflict of interest due to its participation in the procurement procedure",
+          "description":"Is the economic operator aware of any conflict of interest for taking part in the tender procedure, according to Article 42, paragraph 2 of Legislative Decree no. 50/2016?",
+          "uuid": "b85fa02c-32e8-4a3e-bcd6-19eac65606ce",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "73f0fe4c-4ed9-4343-8096-d898cf200146",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "conflictInterest"
+      },
+      {
+        "name": "Direct or indirect involvement in the preparation of this procurement procedure",
+        "uuid": "61874050-5130-4f1c-a174-720939c7b483",
+        "shortName": "Direct or indirect involvement in the preparation of this procurement procedure",
+        "description": "Has the economic operator or an undertaking related to it advised the contracting authority or contracting entity or otherwise been involved in the preparation of the procurement procedure?",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to possible conflicts of interests",
+          "espdType": "CONFLICT_OF_INTEREST",
+          "code": "CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.PROCEDURE_PREPARATION"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Direct or indirect involvement in the preparation of this procurement procedure",
+          "description":"Has the economic operator or an undertaking related to it advised the contracting authority or contracting entity or otherwise been involved in the preparation of the procurement procedure?",
+          "uuid": "f892a6f2-7e7a-4143-b85d-ef62d12445bd",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "73f0fe4c-4ed9-4343-8096-d898cf200146",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "involvementPreparationProcurement"
+      },
+      {
+        "name": "Early termination, damages or other comparable sanctions",
+        "uuid": "3293e92b-7f3e-42f1-bee6-a7641bb04251",
+        "shortName": "Early termination, damages or other comparable sanctions",
+        "description": "Has the economic operator experienced that a prior public contract, a prior contract with a contracting entity or a prior concession contract was terminated early, or that damages or other comparable sanctions were imposed in connection with that prior contract?",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to possible conflicts of interests",
+          "espdType": "EARLY_TERMINATION",
+          "code": "CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.EARLY_TERMINATION"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Early termination, damages or other comparable sanctions",
+          "description":"Has the economic operator shown significant or persistent deficiencies in the performance of a prior public contract or a prior concession contract which led to early termination of that prior contract, to damages or to other comparable sanctions? The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has ended.",
+          "uuid": "6436b0ab-11d4-4cec-948c-d9f5055988a4",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "67362ec7-cec3-4cb8-a38e-5d7a2a31e6d8",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1.1",
+                "id": "73f0fe4c-4ed9-4343-8096-d898cf200146",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "e098da8e-4717-4500-965f-f882d5b4e1ad",
+                    "description": "Please describe them",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "5f9f09f7-f701-432c-9fdc-c22c124a74c9",
+                    "PropertyGroupTypeCode": "ON*",
+                    "requirements": [
+                      {
+                        "id": "20c5361b-7599-4ee6-b030-7f8323174d1e",
+                        "description": "Have you taken measures to demonstrate your reliability (\"Self-Cleaning\")?",
+                        "descriptionSearch":"Self-Cleaning",
+                        "responseType": "INDICATOR",
+                        "espdCriterionFields": [
+                          "selfCleaningAnswer"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "74e6c7b4-757b-4b40-ada6-fad6a997c310",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "fulfillmentIndicator": "true",
+                        "requirements": [
+                          {
+                            "id": "7b07904f-e080-401a-a3a1-9a3efeeda54b",
+                            "description": "Please describe them",
+                            "responseType": "DESCRIPTION",
+                            "espdCriterionFields": [
+                              "selfCleaningDescription"
+                            ]
+                          }                          
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "G2",
+            "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+            "PropertyGroupTypeCode": "ON*",
+            "fulfillmentIndicator": "true",
+            "requirements": [
+              {
+                "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                "description": "Is this information available electronically?",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "infoElectronicallyAnswer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G2.1",
+                "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "",
+                    "description": "Evidence Supplied",
+                    "responseType": "EVIDENCE_IDENTIFIER",
+                    "espdCriterionFields": [
+                      "evidence"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "earlyTermination"
+      },
+      {
+        "name": "Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure",
+        "uuid": "696a75b2-6107-428f-8b74-82affb67e184",
+        "shortName": "Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure",
+        "description": "Can the economic operator confirm the four exclusion grounds, that it has not been guilty of serious misrepresentation in supplying the information required for the verification of the absence of grounds for exclusion or the fulfilment of the selection criteria, that it has not withheld such information, it has been able, without delay, to submit the supporting documents required by a contracting authority or contracting entity, and it has not undertaken to unduly influence the decision making process of the contracting authority or contracting entity, to obtain confidential information that may confer upon it undue advantages in the procurement procedure or to negligently provide misleading information that may have a material influence on decisions concerning exclusion, selection or award?",
+        "criterionType": {
+          "description": "Grounds for exclusion relating to possible conflicts of interests",
+          "espdType": "MISINTERPRETATION",
+          "code": "CRITERION.EXCLUSION.CONFLICT_OF_INTEREST.MISINTERPRETATION"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure",
+          "description":"Has the economic operator attempted to unduly influence the decision making process of the contracting authority or to obtain confidential information that may confer upon it undue advantages in the procurement procedure, has it negligently provided false or misleading information that may have a material influence on decisions concerning exclusion, selection or award, has it withheld information need to a sound procurement procedure? The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has expired.",
+          "uuid": "8e866538-38bf-49e4-b00e-2d6b36650b40",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "f3a6836d-2de2-4cd1-81ca-fb06178d05c5",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "974c8196-9d1c-419c-9ca9-45bb9f5fd59a",
+                "description": "Your answer",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "answer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G1",
+                "id": "73f0fe4c-4ed9-4343-8096-d898cf200146",
+                "PropertyGroupTypeCode": "ONFALSE",
+                "requirements": [
+            
+                  {
+                    "id": "IT",
+                    "description": "If yes, please provide detailed information",
+                    "responseType": "DESCRIPTION",
+                    "espdCriterionFields": [
+                      "description"
+                    ]
+                  }                  
+                ]
+              }
+            ]
+          }           
+        ],
+        "espdDocumentField": "guiltyMisinterpretation"
+      },
+      {
+        "name": "Purely national exclusion grounds",
+        "uuid": "63adb07d-db1b-4ef0-a14e-a99785cf8cf6",
+        "shortName": "Purely national exclusion grounds",
+        "description": "Do the purely national grounds of exclusion, which are specified in the relevant notice or in the procurement documents, apply?",
+        "criterionType": {
+          "description": "Other exclusion grounds that may be foreseen in the national legislation of the contracting authority's or contracting entity's Member State",
+          "espdType": "OTHER",
+          "code": "CRITERION.EXCLUSION.NATIONAL.OTHER"
+        },
+        "legislationReference": {
+          "title": "DIRECTIVE 2014/24/EU OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 26 February 2014 on public procurement and repealing Directive 2004/18/EC",
+          "description": "Directive 2014/24/EU",
+          "url": "http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32014L0024",
+          "article": "57(4)"
+        },
+        "subcriteria":{
+          "name": "Purely national exclusion grounds",
+          "description":"Has the economic operator breached its obligations relating to the purely national grounds of exclusion, which are specified in the relevant notice or in the procurement documents?",
+          "uuid": "41a62578-d8ef-48c7-82e6-16779b32f434",
+          "groups": [
+            {
+              "name": "SG1",
+              "id": "668759ff-9a79-4c7c-a091-aa38256fc83c",
+              "PropertyGroupTypeCode": "ON*",
+              "requirements": [
+                {
+                  "id": "",               
+                  "typeCode":"CAPTION", 
+                  "description": "",
+                  "responseType": "NONE",
+                  "espdCriterionFields": [
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "groups": [
+          {
+            "name": "G1",
+            "id": "8d79d5f7-dc21-45e9-b188-e02008b854e0",
+            "PropertyGroupTypeCode": "ON*",
+            "requirements": [
+              {
+                "id": "",               
+                "typeCode":"CAPTION", 
+                "description": "",
+                "responseType": "NONE",
+                "espdCriterionFields": [
+                  ""
+                ]
+              }
+            ],
+            "subgroups":[
+              {
+                "name": "G1.1",
+                "id": "IT-cbb135d8-a0ca-43b1-ba9f-c80e17def684",
+                "PropertyGroupTypeCode": "ON*",
+                "requirements": [
+                  {
+                    "id": "IT",               
+                    "typeCode":"CAPTION", 
+                    "description": "1) Legislative Decree 31 March 2023, n. 36 – art. 94 co. 1 lit. C) One of the subjects indicated in art. 94 co. 3 of Legislative Decree LG. 36/2023 have you been convicted with a definitive sentence or penal decree which has become irrevocable for the crime of false corporate communications referred to in articles 2621 and 2622 of the civil code?",
+                    "responseType": "NONE",
+                    "espdCriterionFields": [
+                      ""
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Your answer?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "answer"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.1.1",
+                    "id": "IT-2c7ed458-fd14-44e4-a081-6282c8618e7e",
+                    "PropertyGroupTypeCode": "ONTRUE",
+                    "unbounded":"true",
+                    "requirements": [
+                      {
+                        "id": "IT",
+                        "description": "Date of conviction",
+                        "responseType": "DATE",
+                        "espdCriterionFields": [
+                          "dateConviction"
+                        ]
+                      },
+                      {
+                        "id": "IT",
+                        "description": "Lenght of conviction",
+                        "responseType": "PERIOD",
+                        "espdCriterionFields": [
+                          "startDate",
+                          "endDate"
+                        ]
+                      },
+                      {
+                        "id": "IT",
+                        "description": "Reason",
+                        "responseType": "DESCRIPTION",
+                        "espdCriterionFields": [
+                          "reason"
+                        ]
+                      },
+                      {
+                        "id": "IT",
+                        "description": "Who has been convicted",
+                        "responseType": "DESCRIPTION",
+                        "espdCriterionFields": [
+                          "convicted"
+                        ]
+                      },
+                      {
+                        "id": "IT",
+                        "description": "Length of the period of exclusion",
+                        "responseType": "PERIOD",
+                        "espdCriterionFields": [
+                          "startDate2",
+                          "endDate2"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.1.1.1",
+                        "id": "IT-3e4fc835-94b2-4534-a920-dae04a86971b",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "requirements": [
+                          {
+                            "id": "IT",
+                            "description": "Have you taken measures to demonstrate your reliability (Self-Cleaning)?",
+                            "descriptionSearch":"Self-Cleaning",
+                            "responseType": "INDICATOR",
+                            "espdCriterionFields": [
+                              "selfCleaningAnswer"
+                            ]
+                          }
+                        ],
+                        "subgroups": [
+                          {
+                            "name": "G1.1.1.1.1",
+                            "id": "IT-5f675aeb-d3f9-47e9-b1cd-ca33584d38b2",
+                            "PropertyGroupTypeCode": "ONTRUE",
+                            "requirements": [
+                              {
+                                "id": "IT",
+                                "description": "Please describe them",
+                                "responseType": "DESCRIPTION",
+                                "espdCriterionFields": [
+                                  "selfCleaningDescription"
+                                ]
+                              }
+                            ]                            
+                          } 
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "G1.2",
+                "id": "IT-cbb135d8-a0ca-43b1-ba9f-c80e17def684",
+                "PropertyGroupTypeCode": "ON*",
+                "requirements": [
+                  {
+                    "id": "IT",               
+                    "typeCode":"CAPTION", 
+                    "description": "2) Legislative Decree 31 March 2023, n. 36 – art. 94 co. 1 lit. h) One of the subjects indicated in art. 94 co. 3 of Legislative Decree lgs. 36/2023 have you been convicted with a definitive sentence or penal decree which has become irrevocable for any crime which results in the inability to contract with the public administration as an accessory penalty?",
+                    "responseType": "NONE",
+                    "espdCriterionFields": [
+                      ""
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Your answer?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "answer2"
+                    ]
+                  }
+                ],
+                "subgroups": [
+                  {
+                    "name": "G1.2.1",
+                    "id": "IT-2c7ed458-fd14-44e4-a081-6282c8618e7e",
+                    "PropertyGroupTypeCode": "ONTRUE",
+                    "unbounded":"true",
+                    "requirements": [
+                      {
+                        "id": "IT",
+                        "description": "Date of conviction",
+                        "responseType": "DATE",
+                        "espdCriterionFields": [
+                          "dateConviction"
+                        ]
+                      },
+                      {
+                        "id": "IT",
+                        "description": "Lenght of conviction",
+                        "responseType": "PERIOD",
+                        "espdCriterionFields": [
+                          "startDate",
+                          "endDate"
+                        ]
+                      },
+                      {
+                        "id": "IT",
+                        "description": "Reason",
+                        "responseType": "DESCRIPTION",
+                        "espdCriterionFields": [
+                          "reason"
+                        ]
+                      },
+                      {
+                        "id": "IT",
+                        "description": "Who has been convicted",
+                        "responseType": "DESCRIPTION",
+                        "espdCriterionFields": [
+                          "convicted"
+                        ]
+                      },
+                      {
+                        "id": "IT",
+                        "description": "Length of the period of exclusion",
+                        "responseType": "PERIOD",
+                        "espdCriterionFields": [
+                          "startDate2",
+                          "endDate2"
+                        ]
+                      }
+                    ],
+                    "subgroups": [
+                      {
+                        "name": "G1.2.1.1",
+                        "id": "IT-3e4fc835-94b2-4534-a920-dae04a86971b",
+                        "PropertyGroupTypeCode": "ONTRUE",
+                        "requirements": [
+                          {
+                            "id": "IT",
+                            "description": "Have you taken measures to demonstrate your reliability (Self-Cleaning)?",
+                            "descriptionSearch":"Self-Cleaning",
+                            "responseType": "INDICATOR",
+                            "espdCriterionFields": [
+                              "selfCleaningAnswer"
+                            ]
+                          }
+                        ],
+                        "subgroups": [
+                          {
+                            "name": "G1.2.1.1.1",
+                            "id": "IT-5f675aeb-d3f9-47e9-b1cd-ca33584d38b2",
+                            "PropertyGroupTypeCode": "ONTRUE",
+                            "requirements": [
+                              {
+                                "id": "IT",
+                                "description": "Please describe them",
+                                "responseType": "DESCRIPTION",
+                                "espdCriterionFields": [
+                                  "selfCleaningDescription"
+                                ]
+                              }
+                            ]                            
+                          } 
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },             
+              {
+                "name": "G1.3",
+                "id": "IT-cbb135d8-a0ca-43b1-ba9f-c80e17def684",
+                "PropertyGroupTypeCode": "ON*",
+                "requirements": [                  
+                  {
+                    "id": "IT",               
+                    "typeCode":"CAPTION", 
+                    "description": "3) Legislative Decree 31 March 2023, n. 36 – art. 94 co. 2 There are, at the expense of the subjects referred to in art. 94, co. 3, of Legislative Decree no. 36/2023 causes of forfeiture, suspension or prohibition provided for by article 67 of the legislative decree 6 September 2011, n. 159 or an attempted mafia infiltration referred to in article 84, paragraph 4, of the same decree 159/2011?",
+                    "responseType": "NONE",
+                    "espdCriterionFields": [
+                      ""
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Your answer?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "answer3"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "G1.4",
+                "id": "IT-cbb135d8-a0ca-43b1-ba9f-c80e17def684",
+                "PropertyGroupTypeCode": "ON*",
+                "requirements": [                  
+                  {
+                    "id": "IT",               
+                    "typeCode":"CAPTION", 
+                    "description": "4) Legislative Decree 31 March 2023, n. 36 – art. 94 co. 5 lett. to The economic operator has suffered a disqualification sanction pursuant to article 9, co. 2, lit. c), of the legislative decree 8 June 2001, n. 231, or other sanction which involves the prohibition to contract with the public administration, including the disqualification measures referred to in article 14 of the legislative decree 9 April 2008, n. 81?",
+                    "responseType": "NONE",
+                    "espdCriterionFields": [
+                      ""
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Your answer?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "answer4"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "G1.5",
+                "id": "IT-cbb135d8-a0ca-43b1-ba9f-c80e17def684",
+                "PropertyGroupTypeCode": "ON*",
+                "requirements": [                  
+                  {
+                    "id": "IT",               
+                    "typeCode":"CAPTION", 
+                    "description": "5) Legislative Decree 31 March 2023, n. 36 – art. 94, co. 5, letter. b) The Economic Operator has violated the rules governing the right to work of the disabled pursuant to the law of 12 March 1999, n. 68?",
+                    "responseType": "NONE",
+                    "espdCriterionFields": [
+                      ""
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Your answer?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "answer5"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "G1.6",
+                "id": "IT-cbb135d8-a0ca-43b1-ba9f-c80e17def684",
+                "PropertyGroupTypeCode": "ON*",
+                "requirements": [
+                  {
+                    "id": "IT",               
+                    "typeCode":"CAPTION", 
+                    "description": "6) The economic operator is in the condition envisaged by art. 53 paragraph 16-ter of Legislative Decree 165/2001 (pantouflage or revolving door) as it has concluded employment or self-employment contracts and, in any case, has assigned tasks to former employees of the contracting station who have ceased their employment relationship for less than three years and who in the last three years of service have exercised authoritative or negotiating powers on behalf of the same contracting authority vis-à-vis the same economic operator?",
+                    "responseType": "NONE",
+                    "espdCriterionFields": [
+                      ""
+                    ]
+                  },
+                  {
+                    "id": "IT",
+                    "description": "Your answer?",
+                    "responseType": "INDICATOR",
+                    "espdCriterionFields": [
+                      "answer6"
+                    ]
+                  }                  
+                ]
+              }
+            ]                                      
+          },
+          {
+            "name": "G2",
+            "id": "7458d42a-e581-4640-9283-34ceb3ad4345",
+            "PropertyGroupTypeCode": "ON*",
+            "fulfillmentIndicator": "true",
+            "requirements": [
+              {
+                "id": "c1347b74-1872-4060-a6db-f4044edcd7c4",
+                "description": "Is this information available electronically?",
+                "responseType": "INDICATOR",
+                "espdCriterionFields": [
+                  "infoElectronicallyAnswer"
+                ]
+              }
+            ],
+            "subgroups": [
+              {
+                "name": "G2.1",
+                "id": "41dd2e9b-1bfd-44c7-93ee-56bd74a4334b",
+                "PropertyGroupTypeCode": "ONTRUE",
+                "fulfillmentIndicator": "true",
+                "requirements": [
+                  {
+                    "id": "",
+                    "description": "Evidence Supplied",
+                    "responseType": "EVIDENCE_IDENTIFIER",
+                    "espdCriterionFields": [
+                      "evidence"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "espdDocumentField": "nationalExclusionGrounds"
+      }
+    ]
+  }
+  
+  

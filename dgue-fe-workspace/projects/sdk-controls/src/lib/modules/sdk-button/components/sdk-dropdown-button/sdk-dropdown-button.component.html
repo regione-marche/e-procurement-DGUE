@@ -1,0 +1,7 @@
+<div *ngIf="isReady" #sdkDropdownButton>
+  <p-splitButton #splitButton [disabled]="config.disabled"
+    [label]="getTranslatedLabel(config.label, config.labelParams)" [styleClass]="getClasses(config)"
+    [icon]="getIcon(config.icon)" [iconPos]="config.iconPos" [model]="config.dropdownData"
+    [expandAriaLabel]="config.expandAriaLabel != null ? (config.expandAriaLabel | translate) : ''">
+  </p-splitButton>
+</div>

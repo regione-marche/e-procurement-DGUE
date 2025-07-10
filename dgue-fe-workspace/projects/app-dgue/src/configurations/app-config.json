@@ -1,0 +1,22 @@
+{
+    "i18n": {
+        "availableLangs": [
+            {
+                "label": "English (GB)",
+                "code": "en-GB",
+                "alternativeCode": "en",
+                "currency": "EUR",
+                "visualDateFormat": "MM/dd/yyyy"
+            },
+            {
+                "label": "Italiano",
+                "code": "it-IT",
+                "alternativeCode": "it",
+                "currency": "EUR",
+                "default": true,
+                "visualDateFormat": "dd/MM/yyyy"
+            }
+        ],
+        "sessionKey": "preferredLang"
+    }
+}

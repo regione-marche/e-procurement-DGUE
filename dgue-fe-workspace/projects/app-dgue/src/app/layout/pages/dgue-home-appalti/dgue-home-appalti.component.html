@@ -1,0 +1,46 @@
+
+
+    <div class="container panel">
+        <div class="browser">
+            <div class="warning-panel" #warningspanel></div>
+        </div>
+        
+        <div id="body" class="container espd-container">
+            <div class="row" style="padding:50px">
+                <div>
+                    <h2>
+                    {{"START_PAGE.WELCOME" | translate}}
+                    </h2>
+                </div>
+                <div class="welcome-message">
+
+
+                    <div class="alert alert-espd-info">
+                        <ul class="fa-ul">
+                            <li><i class="info-label fas fa-info-circle fa-lg fa-li"></i>
+                                <div id="filter_text"><span><p>{{"START_PAGE.TEXT" | translate}}</p></span></div>
+                            </li>
+                        </ul>
+                    </div>                     
+                    
+                    <div class="home-bottom-container">
+                        <div>
+                            <a (click)=start() class="link-filter">{{"START_PAGE.ACCESS" | translate}}<i class="far fa-arrow-alt-circle-right"></i></a>
+                        </div>
+                        <div>
+                            <a (click)=help() class="link-filter">{{"START_PAGE.HELP" | translate}}<i class="far fa-life-ring "></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="loader theme-showcase" *ngIf="!isHome">
+                        <div class="loading-mask"></div>
+                        <div class="loading-text">Caricamento in corso...</div>  
+                    </div>
+                    <div class="error-panel error-panel-avvio" #errorspanel></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+

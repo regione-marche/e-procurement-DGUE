@@ -1,0 +1,31 @@
+<div *ngIf="isReady" class="sdk-input sdk-documents-list">
+  <div class="documents-list">
+    <div [class]="getClasses('documents-list-label', config.labelClasses, config.infoBox)"
+      (dblclick)="handleInfoBoxDblClick($event)" [title]="config.label | translate:config.labelParams">
+      {{ config.label | translate:config.labelParams }}
+    </div>
+    <div class="single-document single-document-header">
+      <div class="document-content">
+        <div class="document-description">{{ 'SDK-DOCUMENT-LIST.DESCRIZIONE' | translate }}</div>
+        <div class="document-title">{{ 'SDK-DOCUMENT-LIST.TITOLO-DOCUMENTO' | translate }}</div>
+      </div>
+    </div>
+    <div class="single-document" *ngFor="let item of config?.documents; trackBy: trackByCode; let i = index">
+      <div class="document-content">
+        <div class="document-description" [innerHTML]="formatTesto(item.descrizione)"></div>
+        <div [class]="getLinkClasses('document-title', config)" sdkClick (aClick)="onDocumentClick(item)" tabindex="0"
+          role="button">
+          {{ item.titolo }}
+        </div>
+        <div class="document-actions">
+          <div class="document-delete" *ngIf="config.actionsDisabled !== true" sdkClick
+            (aClick)="manageDeleteDocument(item)" tabindex="0" role="button"
+            [attr.aria-label]="'BUTTONS.ELIMINA' | translate">
+            <i class="mgg-icons-crud-delete"></i>
+          </div>
+        </div>
+      </div>
+      <div class="documents-divider" *ngIf="i < config?.documents.length - 1"></div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+
+<div class="debug" *ngIf="visibleHiddenFunction">DEBUG MOD</div>
+<app-breadcrumb [showBreadcrumbs]=showBreadcrumbs [classConfig]=breadcrumbsConfig [procedura]=procedura [esclusione]=esclusione [selezione]=selezione [fine]=fine></app-breadcrumb>
+   <div class="content">       
+      <div class="warning-panel" #warningspanel></div>
+      <sdk-form-builder [config]="formBuilderConfigObs" [data]="formBuilderDataSubject" (output)="manageFormOutput($event)" (addPanel)="manageAddPanel($event)"
+      (outputField)="manageFormOutputField($event)">
+      </sdk-form-builder>
+   </div>
+   <div class="loader theme-showcase" *ngIf="isLoading">
+      <div class="loading-mask"></div>
+      <div class="loading-text">Caricamento in corso...</div>  
+  </div>
+  
+<app-navigation-button [nextPage]=nextPage [previousPage]=previousPage [nextCallback]= preNext [previousCallback]=prePrevious [selectUser]=selectUser [fromPortale]=fromPortale [pagename]=pagename></app-navigation-button>
+
+
+
+
+

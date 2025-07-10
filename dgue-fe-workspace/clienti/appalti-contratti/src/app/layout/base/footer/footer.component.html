@@ -1,0 +1,19 @@
+
+<div class="go-to-top " (click)="executeScrollToTop()" #scrollToTop>
+    <i class="fas fa-chevron-up k-icon-18 go-to-icon"></i>
+</div>
+
+<div class="go-to-bottom go-to-show" (click)="executeScrollToBottom()" #scrollToBottom>
+    <i class="fas fa-chevron-down k-icon-18 go-to-icon"></i>
+</div>
+
+<div class="footer row" >
+    <div class="footer-info">
+        <div class="footer-cookies"><a (click)="goToCookies()">Cookies</a></div>        
+        <div class="footer-credits"><a (click)="goToPrivacy()">Privacy </a></div>
+        <div class="footer-credits"><a (click)="goToDisclaimer()">Disclaimer</a></div>
+        <div class="footer-credits"><a (click)="goToAssistenza()">Assistenza</a></div>
+        <div class="footer-credits"><a (click)="goToCredits()">Credits</a></div>
+        <div *ngIf="fromPortale" class="footer-credits"><a href="https://eproc-collaudo.maggiolicloud.it/PortaleAppalti/it/ppgare_doc_assistenza_tecnica.wp">Assistenza operatori economici</a></div>
+    </div>
+</div>

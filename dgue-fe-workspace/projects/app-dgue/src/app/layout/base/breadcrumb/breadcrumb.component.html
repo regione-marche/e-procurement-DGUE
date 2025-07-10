@@ -1,0 +1,27 @@
+<div *ngIf="showBreadcrumbs" class="panel panel-default no-border hidden-print">
+    <ul class="nav nav-pills nav-wizard nav-justified">
+        <li [class]="classConfig.classAvvio" id="avvio">
+            <a><i class="fas fa-random"></i>&nbsp;<span class="title_breadcrumbs">{{"BREADCRUMBS.START" | translate}}</span></a>
+            <div class="nav-arrow"></div>
+        </li>
+        <li [class]=classConfig.classProcedura>
+            <div class="nav-wedge"></div>
+            <a  class="breadcrumb_link" (click)="goToProcedura()"><i class="fas fa-university"></i>&nbsp;<span class="title_breadcrumbs">{{"BREADCRUMBS.PROCEDURE" | translate}}</span></a>
+            <div class="nav-arrow"></div>
+        </li>
+        <li [class]=classConfig.classEsclusione>
+            <div class="nav-wedge"></div>
+            <a class="breadcrumb_link" (click)="goToEsclusione()"><i class="fas fa-exclamation"></i>&nbsp;<span class="title_breadcrumbs">{{"BREADCRUMBS.ESCLUSION" | translate}}</span></a>
+            <div class="nav-arrow"></div>
+        </li>
+        <li [class]=classConfig.classSelezione>
+            <div class="nav-wedge"></div>
+            <a class="breadcrumb_link" (click)="goToSelezione()"><i class="fas fa-check-circle"></i>&nbsp;<span class="title_breadcrumbs">{{"BREADCRUMBS.SELECTION" | translate}}</span></a>
+            <div class="nav-arrow"></div>
+        </li>
+        <li [class]=classConfig.classFine>
+            <div class="nav-wedge"></div>
+            <a class="breadcrumb_link" (click)="goToFine()"><i class="fas fa-download"></i>&nbsp;<span class="title_breadcrumbs">{{"BREADCRUMBS.END" | translate}}</span> </a>
+        </li>
+    </ul>
+</div>

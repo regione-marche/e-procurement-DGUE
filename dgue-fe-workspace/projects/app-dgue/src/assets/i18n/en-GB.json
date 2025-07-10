@@ -1,0 +1,1348 @@
+{
+	"DOMANDA1":{
+		"LABEL" : "Participation in a criminal organisation",
+        "DESCRIZIONE": "Participation in a criminal organisation, as defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime",
+        "DESCRIZIONE_SUB":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes committed or attempted referred to in Article 416, 416-bis of the Penal Code or for crimes committed using the conditions set out in the Article 416-bis or in order to facilitate the activity of the associations provided for by the same article, as well as for crimes, committed or attempted, provided for by Article 74 of Decree of the President of the Republic No. 309/1990, by Article 291-quater of the Decree of the President of the Republic No. 43/1973 and Article 260 of Legislative Decree No. 152/2006, relating to participation in a criminal organisation as defined in Article 2 of Council Framework Decision 2008/841/JHA? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 has ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+	},
+    "DOMANDA2":{
+		"LABEL" : "Corruption",
+        "DESCRIZIONE": "Corruption, as defined in Article 3 of the Convention on the fight against corruption involving officials of the European Communities or officials of Member States of the European Union, OJ C 195, 25.6.1997, and in Article 2(1) of Council Framework Decision 2003/568/JHA of 22 July 2003 on combating corruption in the private sector (OJ L 192, 31.7.2003). This exclusion ground also includes corruption as defined in the national law of the contracting authority (contracting entity) or the economic operator",
+        "DESCRIZIONE_SUB":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes committed or attempted referred to in Articles 317, 318, 319, 319-ter, 319-quater, 320, 321, 322, 322-bis, 346-bis, 353, 353-bis, 354, 355 e 356 of the Penal Code or in Article 2635 of the Civil Code? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+    },
+    "DOMANDA3":{
+		"LABEL" : "Fraud",
+		"DESCRIZIONE": "Fraud within the meaning of Article 1 of the Convention on the protection of the European Communities' financial interests (OJ C 316, 27.11.1995)",
+        "DESCRIZIONE_SUB":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for froud crime as defined in Article 1 of the Convention on the protection of the European Communities' financial interests? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+	},
+    "DOMANDA4":{
+		"LABEL" : "Terrorist offences or offences linked to terrorist activities",
+		"DESCRIZIONE": "Terrorist offences or offences linked to terrorist activities, as defined in Articles 1 and 3 of Council Framework Decision of 13 June 2002 on combating terrorism (OJ L 164, 22.6.2002). This exclusion ground also includes inciting or aiding or abetting or attempting to commit an offence, as referred to in Article 4 of that Framework Decision",
+        "DESCRIZIONE_SUB":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes, committed or attempted, in connection with terrorism, even internationally, or subversion of constitutional order, terrorist offences or offences linked to terrorist activities? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+    },
+    "DOMANDA5":{
+        "LABEL": "Money laundering or terrorist financing",
+        "DESCRIZIONE":"Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgement for money laundering or terrorist financing, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 1 of Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing (OJ L 309, 25.11.2005, p. 15)",
+        "DESCRIZIONE_SUB":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuanto to Article 444 of the Code of Criminal Procedure, for crimes as defined in Article 648-bis, 648-ter e 648-ter.1 of the Penal Code, money laundering or terrorist financing, as defined in Article 1 of Legislative Decree No. 109/2007? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+                
+    },
+    "DOMANDA6":{
+        "LABEL": "Child labour and other forms of trafficking in human beings",
+        "DESCRIZIONE":"Money laundering or terrorist financing, as defined in Article 2 of Directive 2011/36/EU of the European Parliament and of the Council of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims, and replacing Council Framework Decision 2002/629/JHA (OJ L 101, 15.4.2011)",
+        "DESCRIZIONE_SUB":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 50/2016 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes of exploitation of child labor and other forms of trafficking in human beings defined by the Legislative Decree n. 24/2014? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 50/2016 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+    },
+    "DOMANDA7":{
+        "LABEL": "Payment of taxes",
+            "DESCRIZIONE":"Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?"
+    },
+    "DOMANDA8":{
+        "LABEL": "Payment of social security contributions",
+            "DESCRIZIONE":"Has the economic operator breached its obligations relating to the payment of social security contributions, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?"
+            
+    },
+    "DOMANDA9":{
+        "LABEL": "Breaching of obligations in the fields of environmental law",
+        "DESCRIZIONE":"Has the economic operator, to its knowledge, breached its obligations in the fields of environmental law? As referred to for the purposes of this procurement in national law, in the ESPD, the relevant notice or the in the ESPD, the relevant notice or , in Article 18(2) of Directive 2014/24/EU or in the ESPD."
+        
+    },
+    "DOMANDA10":{
+        "LABEL": "Breaching of obligations in the fields of social law",
+        "DESCRIZIONE":"Has the economic operator, to its knowledge, breached its obligations in the fields of social law? As referred to for the purposes of this procurement in national law, in the ESPD, the relevant notice or the in the ESPD, the relevant notice or  or in Article 18(2) of Directive 2014/24/EU."
+        
+    },
+    "DOMANDA11":{
+        "LABEL": "Breaching of obligations in the fields of labour law",
+        "DESCRIZIONE":"Has the economic operator, to its knowledge, breached its obligations in the fields of labour law? As referred to for the purposes of this procurement in national law, in the relevant notice or the in the ESPD, the relevant notice or  or in Article 18(2) of Directive 2014/24/EU."
+            
+    },
+    "DOMANDA12":{
+        "LABEL": "Bankruptcy",
+        "DESCRIZIONE":"Is the economic operator bankrupt?"
+            
+    },
+    "DOMANDA13":{
+        "LABEL": "Insolvency",
+        "DESCRIZIONE":"Is the economic operator the subject of insolvency or winding-up?"
+            
+    },
+    "DOMANDA14":{
+        "LABEL": "Arrangement with creditors",
+        "DESCRIZIONE":"Is the economic operator in arrangement with creditors?"
+    },
+    "DOMANDA15":{
+        "LABEL": "Analogous situation like bankruptcy under national law",
+        "DESCRIZIONE":"Is the economic operator in any analogous situation like bankruptcy arising from a similar procedure under national laws and regulations?"
+    },
+    "DOMANDA16":{
+        "LABEL": "Assets being administered by liquidator",
+        "DESCRIZIONE":"Are the assets of the economic operator being administered by a liquidator or by the court? "
+    },
+    "DOMANDA17":{
+        "LABEL": "Business activities are suspended",
+        "DESCRIZIONE":"Are the business activities of the economic operator suspended?"
+    },
+    "DOMANDA18":{
+        "LABEL": "Guilty of grave professional misconduct",
+        "DESCRIZIONE":"Is the economic operator guilty of grave professional misconduct? Where applicable, see definitions in national law, the relevant notice or the procurement documents."
+    },
+    "DOMANDA19":{
+        "LABEL": "Agreements with other economic operators aimed at distorting competition",
+        "DESCRIZIONE":"Has the economic operator entered into agreements with other economic operators aimed at distorting competition?"
+    },
+    "DOMANDA20":{
+        "LABEL": "Conflict of interest due to its participation in the procurement procedure",
+        "DESCRIZIONE":"Is the economic operator aware of any conflict of interest, as indicated in national law, the relevant notice or in the ESPD, the relevant notice or due to its participation in the procurement procedure?"
+    },
+    "DOMANDA21":{
+        "LABEL": "Direct or indirect involvement in the preparation of this procurement procedure",
+        "DESCRIZIONE":"Has the economic operator or an undertaking related to it advised the contracting authority or contracting entity or otherwise been involved in the preparation of the procurement procedure?"
+    },
+    "DOMANDA22":{
+        "LABEL": "Early termination, damages or other comparable sanctions",
+        "DESCRIZIONE":"Has the economic operator experienced that a prior public contract, a prior contract with a contracting entity or a prior concession contract was terminated early, or that damages or other comparable sanctions were imposed in connection with that prior contract?"
+    },
+    "DOMANDA23":{
+        "LABEL": "Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure",
+        "DESCRIZIONE":"Can the economic operator confirm that: a) It has been guilty of serious misrepresentation in supplying the information required for the verification of the absence of grounds for exclusion or the fulfilment of the selection criteria, \n b) It has withheld such information,\n c) It has not been able, without delay, to submit the supporting documents required by a contracting authority or contracting entity;\n d) It has undertaken to unduly influence the decision making process of the contracting authority or contracting entity, to obtain confidential information that may confer upon it undue advantages in the procurement procedure or to negligently provide misleading information that may have a material influence on decisions concerning exclusion, selection or award?"
+    },
+
+    "DOMANDA24":{
+        "LABEL": "Purely national exclusion grounds",
+        "DESCRIZIONE":"Do the purely national grounds of exclusion, which are specified in the relevant notice or in the procurement documents, apply?",
+        "DOMANDA1":"False corporate communications - The subjects of the economic operator listed in art. 80, co. 3, of the legislative decree n. 50/2016 were sentenced with a definitive sentence or criminal decree of conviction that has become irrevocable or sentence applying the penalty upon request pursuant to article 444 of the Criminal Procedure Code for the crimes of false corporate communications referred to in articles 2621 and 2622 of Civil Code? The economic operator is not required to declare the sentence if: the exclusion period established by the sentence or decree or provided for by art. 80, co. 10 and 10-bis of Legislative Decree no. 50/2016; the offense was decriminalized; rehabilitation took place; the perpetual accessory penalty has been declared extinct pursuant to Article 179, seventh paragraph, of the Criminal Code; the offense was declared extinct after the conviction; the sentence was revoked. (Article 80, paragraph 1, letter b-bis), Legislative Decree no. 50/2016) Convictions involving prohibitions on contracting with the public administration - The subjects of the economic operator listed in art. 80, co. 3, of the legislative decree n. 50/2016 were sentenced with a definitive sentence or criminal decree which has become irrevocable or sentence applying the penalty upon request pursuant to Article 444 of the Code of Criminal Procedure for any other crime from which, as an ancillary penalty, the incapacity to negotiate with the public administration? The economic operator is not required to declare the sentence if: the exclusion period established by the sentence or decree has ended; the offense was decriminalized; rehabilitation took place; the perpetual accessory penalty has been declared extinct pursuant to Article 179, seventh paragraph, of the Criminal Code; the offense was declared extinct after the conviction; the sentence was revoked. (Article 80, paragraph 1, letter g), Legislative Decree no. 50/2016)",        
+        "DOMANDA2":"Your answer?",
+        "DOMANDA3":"Date of conviction",
+        "DOMANDA4":"Lenght of conviction",
+        "DOMANDA5":"Reason",
+        "DOMANDA6":"Who has been convicted",
+        "DOMANDA7":"Length of the period of exclusion",
+        "DOMANDA8":"Have you taken measures to demonstrate your reliability (Self-Cleaning)?",
+        "DOMANDA9":"Has the economic operator fully compensated the damage?",
+        "DOMANDA10":"Has the economic operator formally committed itself to compensating the damage?",
+        "DOMANDA11":"Has the economic operator taken concrete measures of a technical or organizational nature and related to personnel suitable for preventing further offenses or crimes? If so, describe the measures.",
+        "DOMANDA12":"Please describe them",
+        "DOMANDA13":"1) They exist for the subjects referred to in art. 80, paragraph 3, of the Code causes of forfeiture, suspension or prohibition provided for in article 67 of Legislative Decree 6 September 2011, n. 159, or of an attempt of mafia infiltration referred to in Article 84, paragraph 4, of the same decree (Article 80, paragraph 2, of the Code)? The economic operator is not required to declare the cause of exclusion if a provision has been adopted that provides for the judicial administration provided for in Article 34 of Legislative Decree 159/2011 or the judicial control provided for by art. 34-bis, paragraph 6, of the same decree",
+        "DOMANDA14":"2) It has been subject to the interdictory sanction referred to in article 9, paragraph 2, letter c) of the legislative decree 8 June 2001, n. 231 or another sanction that involves the prohibition of contracting with the public administration, including the disqualification provisions referred to in Article 14 of Legislative Decree 9 April 2008, n. 81 (Article 80, paragraph 5, letter f);",
+        "DOMANDA15":"3) It is registered in the electronic database kept by the ANAC Observatory for having presented false declarations or false documentation in the tender procedures and subcontracts, for the period during which the registration in the electronic database is available (Article 80, paragraph 5) , letter f-ter);",
+        "DOMANDA16":"4) It is registered in the electronic database kept by the ANAC Observatory for having presented false declarations or false documentation for the issue of the qualification certificate, for the period during which the registration is available (Article 80, paragraph 5, letter g);",
+        "DOMANDA17":"5) Has violated the prohibition of the fiduciary registration referred to in Article 17 of the Law of 19 March 1990, n. 55 (Article 80, paragraph 5, letter h",
+        "DOMANDA18":"the date of the definitive ascertainment",
+        "DOMANDA19":"the authority or body of issue:",
+        "DOMANDA20":"Has the violation been removed?",
+        "DOMANDA21":"6) Has violated the rules governing the right to work of disabled persons as per law 12 March 1999, n. 68 (Article 80, paragraph 5, letter i); The economic operator is not required to declare the violation if the exclusion period provided for by art. 80, co. 10-bis of Legislative Decree no. 50/2016.",
+        "DOMANDA22":"7) Has violated the rules governing the right to work of disabled persons as per law 12 March 1999, n. 68 (Article 80, paragraph 5, letter i); The economic operator is not required to declare the violation if the exclusion period provided for by art. 80, co. 10-bis of Legislative Decree no. 50/2016.",
+        "DOMANDA23":" - has he reported the facts to the judicial authority?",
+        "DOMANDA24":"- the cases provided for in the first paragraph of Article 4 of the Law of 24 November 1981, n. 689 (article 80, paragraph 5, letter l)?",
+        "DOMANDA25":"8) It is in relation to another participant in the same custody procedure, in a control situation referred to in Article 2359 of the Italian Civil Code or in any report, even de facto, if the control situation or the relationship implies that the offers are attributable to a single decision-making center (Article 80, paragraph 5, letter m)??",
+        "DOMANDA26":"9) The economic operator is in the condition provided for by art. 53 paragraph 16-ter of Legislative Decree 165/2001 (pantouflage or revolving door) in that it has entered into subordinate or independent employment contracts and, in any case, has assigned tasks to former employees of the contracting authority that have ceased their employment relationship for less than three years and in the last three years of service have exercised authoritative or negotiating powers on behalf of the same contracting authority against the same economic operator?",
+        "DOMANDA27":"10) The economic operator has committed serious infringements, duly verified, to the rules on health and safety at work referred to in Article 80, paragraph 5, lett. a) of the Code? The economic operator is not required to declare the violation if the exclusion period provided for by art. 80, co. 10-bis of Legislative Decree no. 50/2016.",
+        "DOMANDA28":"11) Has the economic operator committed a serious breach against one or more subcontractors, recognized or ascertained by a final judgment? The economic operator is not required to declare the violation if the exclusion period provided for by art. 80, co. 10-bis of Legislative Decree no. 50/2016. (Art. 80, co. 5, lett. C-quater), legislative decree n. 50/2016)"        
+
+    },
+
+
+    
+
+
+    "DOMANDA25":{
+        "LABEL": "Enrolment in a relevant professional register",
+        "DESCRIPTION":"It is enrolled in relevant professional registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex."
+            
+    },
+    "DOMANDA26":{
+        "LABEL": "Enrolment in a trade register",
+        "DESCRIPTION":"It is enrolled in trade registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex."
+        
+    },
+    "DOMANDA27":{
+        "LABEL": "For service contracts: authorisation of particular organisation needed",
+        "DESCRIPTION":"Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?"
+       
+    },
+    "DOMANDA28":{
+        "LABEL": "For service contracts: membership of particular organisation needed",
+        "DESCRIPTION":"Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?"
+    },
+    "DOMANDA30":{
+        "LABEL": "General yearly turnover",
+            "DESCRIPTION":"Its general yearly turnover for the number of financial years required in the relevant notice, the in the ESPD, the relevant notice or  or the ESPD is as follows:"
+    },
+    "DOMANDA31":{
+        "LABEL": "Average yearly turnover",
+        "DESCRIPTION":"Its average yearly turnover for the number of years required in the relevant notice, the procurement documents or the ESPD is as follows:"
+    },
+    "DOMANDA32":{
+        "LABEL": "Specific average turnover",
+            "DESCRIPTION":"Its specific average yearly turnover in the business area covered by the contract for the number of years required in the relevant notice, the in the ESPD, the relevant notice or  or the ESPD is as follows:"
+    },
+    "DOMANDA33":{
+        "LABEL": "Specific yearly turnover",
+            "DESCRIPTION":"Its specific yearly turnover in the business area covered by the contract for the number of financial years required in the relevant notice, the in the ESPD, the relevant notice or  or the ESPD is as follows:"
+    },
+    "DOMANDA34":{
+        "LABEL": "Set up of economic operator",
+            "DESCRIPTION":"In case the information concerning turnover (general or specific) is not available for the entire period required, please state the date on which the economic operator was set up or started trading:"
+    },
+    "DOMANDA35":{
+        "LABEL": "Financial ratio",
+            "DESCRIPTION":"Concerning the financial ratios  specified in the relevant notice, the in the ESPD, the relevant notice or  or the ESPD, the economic operator declares that the actual values for the required ratios are as follows:"
+    },
+    "DOMANDA36":{
+        "LABEL": "Professional risk indemnity insurance",
+        "DESCRIPTION":"The insured amount in its professional risk indemnity insurance is the following:"
+    },
+    "DOMANDA37":{        
+        "LABEL": "For works contracts: performance of works of the specified type",
+        "DESCRIPTION":"For public works contracts only: During the reference period, the economic operator has performed the following works of the specified type. Contracting authorities may require up to five years and allow experience dating from more than five years."
+    },        
+    "DOMANDA38":{
+        "LABEL": "For supply contracts: performance of deliveries of the specified type",
+        "DESCRIPTION":"For public supply contracts only: During the reference period, the economic operator has delivered the following principal deliveries of the type specified. Contracting authorities may require up to three years and allow experience dating from more than three years."
+    },        
+    "DOMANDA39":{
+        "LABEL": "For service contracts: performance of services of the specified type",
+        "DESCRIPTION":"For public service contracts only: During the reference period, the economic operator has provided the following main services of the type specified. Contracting authorities may require up to three years and allow experience dating from more than three years."
+    },       
+    "DOMANDA40":{
+        "LABEL": "Technicians or technical bodies for quality control",
+        "DESCRIPTION":"It can call upon the following technicians or technical bodies, especially those responsible for quality control. For technicians or technical bodies not belonging directly to the economic operator's undertaking but on whose capacities the economic operator relies as set out under Part II, Section C, separate ESPD forms must be filled in."
+    },        
+    "DOMANDA41":{
+        "LABEL": "For works contracts: technicians or technical bodies to carry out the work",
+        "DESCRIPTION":"In the case of public works contracts, the economic operator will be able to call on the following technicians or technical bodies to carry out the work:"
+    },        
+    "DOMANDA42":{
+        "LABEL": "Technical facilities and measures for ensuring quality",
+        "DESCRIPTION":"Utilizza le seguenti strutture e misure tecniche per garantire la qualita'. Le strutture di studio e di ricerca sono le seguenti:"
+    },        
+    "DOMANDA43":{
+        "LABEL": "Study and research facilities",
+        "DESCRIPTION":"It uses the following study and research facilities are as follows:"
+    },        
+    "DOMANDA44":{
+        "LABEL": "Supply chain management",
+        "DESCRIPTION":"It will be able to apply the following supply chain management and tracking systems when performing the contract:"
+    },       
+    "DOMANDA45":{
+        "LABEL": "Environmental management measures",
+        "DESCRIPTION":"The economic operator will be able to apply the following environmental management measures when performing the contract:"
+    },       
+    "DOMANDA46":{
+        "LABEL": "Tools, plant or technical equipment",
+        "DESCRIPTION":"The following tools, plant or technical equipment will be available to it for performing the contract:"
+    },        
+    "DOMANDA47":{
+        "LABEL": "Educational and professional qualifications",
+        "DESCRIPTION":"The following educational and professional qualifications are held by the service provider or the contractor itself, and/or (depending on the requirements set out in the relevant notice or the in the ESPD, the relevant notice or  by its managerial staff."
+    },        
+    "DOMANDA48":{
+        "LABEL": "Allowance of checks",
+        "DESCRIPTION":"For complex products or services to be supplied or, exceptionally, for products or services which are required for a special purpose: The economic operator will allow checks  to be conducted on the production capacities or the technical capacity of the economic operator and, where necessary, on the means of study and research which are available to it and on the quality control measures? The check is to be performed by the contracting authority or, in case the latter consents to this, on its behalf by a competent official body of the country in which the supplier or service provider is established."
+    },       
+    "DOMANDA49":{
+        "LABEL": "Number of managerial staff",
+        "DESCRIPTION":"The economic operator’s number of managerial staff for the last three years were as follows:"
+    },       
+    "DOMANDA50":{
+        "LABEL": "Average annual manpower",
+        "DESCRIPTION":"The economic operator’s average annual manpower for the last three years were as follows:"
+    },       
+    "DOMANDA51":{
+        "LABEL": "Subcontracting proportion",
+        "DESCRIPTION":"The economic operator intends possibly to subcontract  the following proportion (i.e. percentage) of the contract. Please note that if the economic operator has decided to subcontract a part of the contract and relies on the subcontractor’s capacities to perform that part, then please fill in a separate ESPD for such subcontractors, see Part II, Section C above."
+    },       
+    "DOMANDA52":{
+        "LABEL": "For supply contracts: samples, descriptions or photographs without certification of authenticity",
+        "DESCRIPTION":"For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity."
+    },        
+    "DOMANDA53":{
+        "LABEL": "For supply contracts: samples, descriptions or photographs with certification of authenticity",
+        "DESCRIPTION":"For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied and will provide certifications of authenticity where applicable."
+    },       
+    "DOMANDA54":{
+        "LABEL": "For supply contracts: certificates by quality control institutes",
+        "DESCRIPTION":"Can the economic operator provide the required certificates drawn up by official quality control institutes or agencies of recognised competence attesting the conformity of products clearly identified by references to the technical specifications or standards, which are set out in the relevant notice or the in the ESPD, the relevant notice or ?"
+    },       
+    "DOMANDA55":{
+        "LABEL": "Certificates by independent bodies about quality assurance standards",
+        "DESCRIPTION":"Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required quality assurance standards, including accessibility for disabled persons?"
+    },        
+    "DOMANDA56":{
+        "LABEL": "Certificates by independent bodies about environmental management systems or standards",
+        "DESCRIPTION":"Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required environmental management systems or standards?"
+    },
+    "DOMANDA57":{
+        "LABEL":"Other economic or financial requirements",
+        "DESCRIPTION":"Concerning the other economic or financial requirements, if any, that may have been specified in the relevant notice or in the ESPD, the economic operator declares that:"
+    },
+    
+
+
+    "DOMANDA62":{
+        "LABEL":"EO is a sheltered workshop",
+        "DESCRIPTION":"Only in case the procurement is reserved: is the economic operator a sheltered workshop, a 'social business' or will it provide for the performance of the contract in the context of sheltered employment programmes?"
+    },
+    "DOMANDA61":{
+        "LABEL":"EO registered in a PQS",
+        "DESCRIPTION":"If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)?",
+        "DOMANDA1":"in the case of public works contracts worth equal to or greater than € 150,000, is the economic operator in possession of a certificate issued by the Company Certification Bodies (SOA), pursuant to Article 84 of the Code (ordinary sectors)? Or is it in possession of a certificate issued within the Qualification Systems referred to in Article 134 of the Code, provided for the special sectors?",
+        "DOMANDA2":"Your answer?",
+        "DOMANDA3":"a) Indicate the details of the attestation (name of the attestation body or Qualification system, number and date of the attestation",
+        "DOMANDA4":"b) If the qualification attestation is available electronically, indicate",
+        "DOMANDA5":"(web address, authority or issuing body, precise reference of the documentation):",
+        "DOMANDA6":"c) Indicate, if relevant, the categories of qualification to which the attestation refers:",
+        "DOMANDA7":"d) Does the qualification attestation include all the selection criteria required?"
+    },
+    "DOMANDA58":{
+        "LABEL":"EO together with others",
+        "DESCRIPTION":"Is the economic operator participating in the procurement procedure together with others?",
+        "DOMANDA1": "If relevant, indicate the name of the economic operators belonging to a consortium as per art. 45, paragraph 2, lett. b) and c), or of a professional company referred to in Article 46, paragraph 1, lett. f) performing the services covered by the contract.",
+        "DOMANDA2": "Your answer",
+        "DOMANDA3": "Name of Economic Operators"
+    },
+    "DOMANDA63":{
+        "LABEL":"Relied on entities",
+        "DESCRIPTION":"Does the economic operator rely on the capacities of other entities in order to meet the selection criteria set out under Part IV and the criteria and rules (if any) set out under Part V below?"
+    },
+    "DOMANDA64":{
+        "LABEL":"Not relied on entities",
+        "DESCRIPTION":"Does the economic operator intend to subcontract any share of the contract to third parties?",        
+        "DOMANDA1": "Performance and / or Processing which is intended to be subcontracted",
+        "DOMANDA2": "Share (expressed as a percentage) on the contract amount:"
+    },
+    "DOMANDA59":{
+        "LABEL":"Lots the EO tenders to",
+        "DESCRIPTION":"Where applicable, indication of the lot(s) for which the economic operator wishes to tender"
+    },
+    "DOMANDA60":{
+        "LABEL":"Part V: Reduction of the number of qualified candidates",
+        "DESCRIPTION":"The economic operator declares that It meets the objective and non discriminatory criteria or rules to be applied in order to limit the number of candidates in the following way:"
+    },                
+    "DOMANDA65":{
+        "LABEL":"CA Lots",
+        "DESCRIPTION":"Please take into account the following requirements regarding the lots of this procurement procedure:"
+    },
+    "DOMANDA66":{
+        "LABEL":"EO SME",
+        "DESCRIPTION":"Is the economic operator a Micro, a Small or Medium-sized Enterprise?"
+    },
+    "DOMANDA67":{
+        "LABEL":"Supplementary evidence for procurement procedures regulated by 2009/81/EC Directive",
+        "DESCRIPTION":"Regarding procurement procedures regulated by the 2009/81/EC Directive, does the Economic Operator add any supplementary evidence that may be required?"
+    },
+    "DOMANDA68":{
+        "LABEL":"Supplementary evidence for procurement procedures regulated by 2004/17/EC Directive",
+        "DESCRIPTION":"Regarding procurement procedures regulated by the 2014/25/EU Directive, does the Economic Operator add any supplementary evidence that may be required?"
+    },
+
+    "EG-CONVICTIONS":{
+        "EVIDENCE":"Is this information available free of charge for authorities in a database of an EU Member State?",
+        "SELF-CLEANING":"Has the economic operator taken measures to demonstrate its reliability (Self-Cleaning)?",
+        "ANSWER":"Your answer",
+        "CONVICTIONS-DATE":"Date of conviction",
+        "CONVICTIONS-DA":"Lenght of Conviction from",
+        "CONVICTIONS-A":"Lenght of Conviction to",
+        "REASON":"Reason",
+        "CONVICTED":"Who has been convicted",
+        "PERIOD-ESCLUSION-DA":"Length of the period of exclusion from",
+        "PERIOD-ESCLUSION-A":"Length of the period of exclusion to",
+        "DESCRIBE":"Please describe them",
+        "CRIMINAL-CONVICTIONS":{
+            "TITLE":"Participation in a criminal organisation",
+            "DESCRIPTION":"Participation in a criminal organisation, as defined in Article 2 of Council Framework Decision 2008/841/JHA of 24 October 2008 on the fight against organised crime",
+            "SUB-DESCRIPTION":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 36/2023 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes committed or attempted referred to in Article 416, 416-bis of the Penal Code or for crimes committed using the conditions set out in the Article 416-bis or in order to facilitate the activity of the associations provided for by the same article, as well as for crimes, committed or attempted, provided for by Article 74 of Decree of the President of the Republic No. 309/1990, by Article 291-quater of the Decree of the President of the Republic No. 43/1973 and Article 260 of Legislative Decree No. 152/2006, relating to participation in a criminal organisation as defined in Article 2 of Council Framework Decision 2008/841/JHA? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 36/2023 has ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+        },
+        "CORRUPTION":{
+            "TITLE":"Corruption",
+            "DESCRIPTION":"Corruption, as defined in Article 3 of the Convention on the fight against corruption involving officials of the European Communities or officials of Member States of the European Union, OJ C 195, 25.6.1997, and in Article 2(1) of Council Framework Decision 2003/568/JHA of 22 July 2003 on combating corruption in the private sector (OJ L 192, 31.7.2003). This exclusion ground also includes corruption as defined in the national law of the contracting authority (contracting entity) or the economic operator",
+            "SUB-DESCRIPTION":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 36/2023 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes committed or attempted referred to in Articles 317, 318, 319, 319-ter, 319-quater, 320, 321, 322, 322-bis, 346-bis, 353, 353-bis, 354, 355 e 356 of the Penal Code or in Article 2635 of the Civil Code? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 36/2023 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+        },
+        "FRAUD":{
+            "TITLE":"Fraud",
+            "DESCRIPTION":"Fraud within the meaning of Article 1 of the Convention on the protection of the European Communities' financial interests (OJ C 316, 27.11.1995)",
+            "SUB-DESCRIPTION":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 36/2023 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for froud crime as defined in Article 1 of the Convention on the protection of the European Communities' financial interests? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 36/2023 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+        },
+        "TERRORIST-OFFENCES":{
+            "TITLE":"Terrorist offences or offences linked to terrorist activities",
+            "DESCRIPTION":"Terrorist offences or offences linked to terrorist activities, as defined in Articles 1 and 3 of Council Framework Decision of 13 June 2002 on combating terrorism (OJ L 164, 22.6.2002). This exclusion ground also includes inciting or aiding or abetting or attempting to commit an offence, as referred to in Article 4 of that Framework Decision",
+            "SUB-DESCRIPTION":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 36/2023 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes, committed or attempted, in connection with terrorism, even internationally, or subversion of constitutional order, terrorist offences or offences linked to terrorist activities? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 36/2023 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+        },
+        "MONEY-LAUNDERING":{
+            "TITLE":"Money laundering or terrorist financing",
+            "DESCRIPTION":"Has the economic operator itself or any person who is a member of its administrative, management or supervisory body or has powers of representation, decision or control therein been the subject of a conviction by final judgement for money laundering or terrorist financing, by a conviction rendered at the most five years ago or in which an exclusion period set out directly in the conviction continues to be applicable? As defined in Article 1 of Directive 2005/60/EC of the European Parliament and of the Council of 26 October 2005 on the prevention of the use of the financial system for the purpose of money laundering and terrorist financing (OJ L 309, 25.11.2005, p. 15)",
+            "SUB-DESCRIPTION":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 36/2023 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuanto to Article 444 of the Code of Criminal Procedure, for crimes as defined in Article 648-bis, 648-ter e 648-ter.1 of the Penal Code, money laundering or terrorist financing, as defined in Article 1 of Legislative Decree No. 109/2007? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 36/2023 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+        },
+        "CHILD-LABOUR":{
+            "TITLE":"Child labour and other forms of trafficking in human beings",
+            "DESCRIPTION":"Money laundering or terrorist financing, as defined in Article 2 of Directive 2011/36/EU of the European Parliament and of the Council of 5 April 2011 on preventing and combating trafficking in human beings and protecting its victims, and replacing Council Framework Decision 2002/629/JHA (OJ L 101, 15.4.2011)",
+            "SUB-DESCRIPTION":"Has any person of the economic operator listed in Article 80, paragraph 3, of the Legislative Decree no. 36/2023 been convicted by a sentence that has the force of res judicata, or by a criminal order against which no appeal lies, or by a sentence of application of punishment upon request pursuant to Article 444 of the Code of Criminal Procedure, for crimes of exploitation of child labor and other forms of trafficking in human beings defined by the Legislative Decree n. 24/2014? (The economic operator does not have to declare the conviction if: the exclusion period set out directly in the judgment or in the decree or provided for by Article 80, paragraph 10 and 10-bis of the Legislative Decree No. 36/2023 is ended; the offence was decriminalised; the rehabilitation has been deemed to have occurred; the permanent accessory penalty has been deemed extinct provided for by Articolo 179, paragraph 7 of the Penal Code; the conviction was declared spent; the conviction has been overturned)."
+        }
+    },
+    "EG-CONTRIBUTORS":{
+        "PAYMENT-SOCIAL-SECURITY":{
+            "TITLE":"Payment of taxes",
+            "DESCRIPTION":"Has the economic operator breached its obligations relating to the payment of taxes, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?",
+            "SUB-DESCRIPTION":"Has the economic operator breached the obligations relating to the payment of taxes and duties, according to the Italian legislation or the legislation of the State of estabilishment?"
+        },
+        "PAYMENT-TAXES":{
+            "TITLE":"Payment of social security contributions",
+            "DESCRIPTION":"Has the economic operator breached its obligations relating to the payment social security contributions, both in the country in which it is established and in Member State of the contracting authority or contracting entity if other than the country of establishment?",
+            "SUB-DESCRIPTION":"Has the economic operator breached the obligations relating to the payment of social security contributions, according to the Italian legislation or the legislation of the State where it is established?"
+        },
+        "ANSWER":"Your answer",
+        "LIMIT":"Threshold",
+        "ADDITIONAL-INFO":"Additional information",
+        "COUNTRY":"Country or member state concerned",
+        "AMOUNT":"Amount concerned",
+        "BREANCH-ESTABLISHED-OTHER-THAN-FUDICAL-DECISION":"Has this breach of obligations been established by means other than a judicial or administrative decision?",
+        "SPECIFIC":"Please describe which means were used",
+        "EO-FULFILLED-OBBLIGATIONS":"Has the economic operator fulfilled its obligations by paying or entering into a binding arrangement with a view to paying the social security contributions due, including, where applicable, any interest accrued or fines?",
+        "DECISION-FINAL-AND-BINDINGS":"If this breach of obligations was established through a judicial or administrative decision, was this decision final and binding?",
+        "DATE-CONVICTION":"Please indicate the date of conviction or decision",
+        "PERIOD-CONVICTION-DA":"In case of a conviction insofar as established directly therein, the length of the period of exclusion from",
+        "PERIOD-CONVICTION-A":"Length of the period of exclusion to",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "EG-ENVIRON-SOCIAL-LABOUR-LAW":{
+        "OBBLIGATIONS-ENV-LAW":{
+            "TITLE":"obligations in the fields of environmental law",
+            "DESCRIPTION":"Has the economic operator, to its knowledge, breached its obligations in the field of environmental law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2004/18/EU",
+            "SUB-DESCRIPTION":"Has the economic operator breached the obligations relating to environmental law as defined in national and European law, collective agreements or international provisions listed in Annex X of the Legislative Decree no. 50/2016?. (The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has ended)."
+        },
+        "OBBLIGATIONS-SOCIAL-LAW":{
+            "TITLE":"obligations in the fields of social law",
+            "DESCRIPTION":"Has the economic operator, to its knowledge, breached its obligations in the field of social law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2004/18/EU",
+            "SUB-DESCRIPTION":"Has the economic operator breached the obligations relating to social law as defined in national and European law, collective agreements or international provisions listed in Annex X of the Legislative Decree no. 50/2016? The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has ended."
+        },
+        "OBBLIGATIONS-LABOUR-LAW":{
+            "TITLE":"obligations in the fields of labour law",
+            "DESCRIPTION":"Has the economic operator, to its knowledge, breached its obligations in the field of labour law? As referred to for the purposes of this procurement in national law, in the relevant notice or the procurement documents or in Article 18(2) of Directive 2004/18/EU",
+            "SUB-DESCRIPTION":"Has the economic operator breached the obligations relating to labor law as defined in national and European law, collective agreements or international provisions listed in Annex X of the Legislative Decree no. 50/2016? (The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 is ended)."
+        },
+        "ANSWER":"Your answer",
+        "SPECIFIC":"Please describe them",
+        "SELF-CLEANING":"If so, has the economic operator taken sufficient measures to prove its reliability despite the existence of a relevant ground for exclusion (self-regulation or self-cleaning)?"
+    },
+    "EG-BUSINESS":{
+        "BANKRUPTCY":{
+            "TITLE":"Bankruptcy",
+            "DESCRIPTION":"Is the economic operator bankrupt? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.",
+            "SUB-DESCRIPTION":"Is the economic operator bankrupt or is a bankruptcy proceeding pending?"
+        },
+        "INSOLVENCY":{
+            "TITLE":"Insolvency",
+            "DESCRIPTION":"Is the economic operator the subject of insolvency or winding-up? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.",
+            "SUB-DESCRIPTION":"Is the economic operator the subject of winding-up or is a compulsory winding up procedure pending?"
+        },
+        "ARRANGMENT-WITH-CREDITORS":{
+            "TITLE":"Arrangement with creditors",
+            "DESCRIPTION":"Is the economic operator in arrangement with creditors? This information needs not be given if exclusion of economic operators in this case has been made mandatory under the applicable national law without any possibility of derogation where the economic operator is nevertheless able to perform the contract.",
+            "SUB-DESCRIPTION":"Is the economic operator in arrangement with creditors or is an admission to creditors pending?"
+        },
+        "ANSWER":"Your answer",
+        "DESCRIPTION":"Please describe them",
+        "REASON":"indicate why the economic operator will still be able to execute the contract, taking into account the applicable national rules and measures in relation to the continuation of activities in the situations cited?",
+        "EVIDENCE":"Is this information available free of charge for authorities in a database of an EU Member State?"
+    },
+    "EG-MISCONDUCT":{
+        "GUILTYGRAVE":{
+            "TITLE":"Guilty of grave professional misconduct",
+            "DESCRIPTION":"Is the economic operator guilty of grave professional misconduct? Where applicable, see definitions in national law, the relevant notice or the procurement documents.",
+            "SUB-DESCRIPTION":"Is the economic operator guilty of serious professional misconduct? The economic operator does not have to declare the breach if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 is ended."
+        },
+        "AGREEMENTSWITHOTHEREO":{
+            "TITLE":"Agreements with other economic operators aimed at distorting competition",
+            "DESCRIPTION":"Has the economic operator entered into agreements with other economic operators aimed at distorting competition?",
+            "SUB-DESCRIPTION":"Has the economic operator received an antitrust provision by the competent national authority establishing that he has entered into agreements with other economic operators aimed at distorting competition? The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has ended."
+        },
+        "ANSWER":"Your answer",
+        "DETAIL":"Please describe them",
+        "SELF-CLEANING":"Have you taken measures to demonstrate your reliability ",
+        "SPECIFIC":"Please describe them"
+
+    },
+    "EG-CONFLICT-OF-INTEREST":{
+        "CONFLICT-OF-INTEREST":{
+            "TITLE":"Conflict of interest due to its participation in the procurement procedure",
+            "DESCRIPTION":"Is the economic operator aware of any conflict of interest as indicated in national law, the relevant notice or the procurement documents due to its participation in the procurement procedure?",
+            "SUB-DESCRIPTION":"Is the economic operator aware of any conflict of interest for taking part in the tender procedure, according to Article 42, paragraph 2 of Legislative Decree no. 50/2016?"
+        },
+        "DIRECT-OR-INDIRECT-PARTECIPATION":{
+            "TITLE":"Direct or indirect involvement in the preparation of this procurement procedure",
+            "DESCRIPTION":"Has the economic operator or an undertaking related to it advised the contracting authority or contracting entity or otherwise been involved in the preparation of the procurement procedure?",
+            "SUB-DESCRIPTION":"Has the economic operator or an undertaking related to it advised the contracting authority or contracting entity or otherwise been involved in the preparation of the procurement procedure?"
+        },
+        "ANSWER":"Your answer",
+        "CONFLICT":"Please describe them",
+        "PARTECIPATION":"If so, provide detailed information on the measures taken to prevent possible distortions of competition:"
+    },
+    "EG-EARLY-TERMINATION":{
+        "EARLY-TERMINATION":{
+            "TITLE":"Early termination, damages or other comparable sanctions",
+            "DESCRIPTION":"Has the economic operator experienced that a prior public contract, a prior contract with a contracting entity or a prior concession contract was terminated early, or that damages or other comparable sanctions were imposed in connection with that prior contract?",
+            "SUB-DESCRIPTION":"Has the economic operator shown significant or persistent deficiencies in the performance of a prior public contract or a prior concession contract which led to early termination of that prior contract, to damages or to other comparable sanctions? The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has ended."
+        },
+        "ANSWER":"Your answer",        
+        "SELF-CLEANING":"Have you taken measures to demonstrate your reliability (Self-Cleaning)?",
+        "SPECIFIC":"Please describe them"
+
+    },
+    "EG-MISINTERPRETATION":{
+        "TITLE":"Guilty of misinterpretation, withheld information, unable to provide required documents and obtained confidential information of this procedure",
+        "DESCRIPTION":"Can the economic operator confirm that it has not been guilty of serious misrepresentation in supplying the information required for the verification of the absence of grounds for exclusion or the fulfilment of the selection criteria, it has not withheld such information, it has been able, without delay, to submit the supporting documents required by a contracting authority or contracting entity, and it has not undertaken to unduly influence the decision making process of the contracting authority or contracting entity, to obtain confidential information that may confer upon it undue advantages in the procurement procedure or to negligently provide misleading information that may have a material influence on decisions concerning exclusion, selection or award?",
+        "SUB-DESCRIPTION":"Has the economic operator attempted to unduly influence the decision making process of the contracting authority or to obtain confidential information that may confer upon it undue advantages in the procurement procedure, has it negligently provided false or misleading information that may have a material influence on decisions concerning exclusion, selection or award, has it withheld information need to a sound procurement procedure? The economic operator does not have to declare the breached if the exclusion period provided for by Article 80, paragraph 10-bis of Legislative Decree no. 50/2016 has expired.",
+        "ANSWER":"Your answer",
+        "DETAIL":"Please describe them"
+    },
+    "EG-PURELY-NATIONAL":{
+        "TITLE":"Purely national exclusion grounds",
+        "DESCRIPTION":"Do the purely national grounds of exclusion, which are specified in the relevant notice or in the procurement documents, apply?",
+        "SUB-DESCRIPTION":"Has the economic operator breached its obligations relating to the purely national grounds of exclusion, which are specified in the relevant notice or in the procurement documents?",
+        "QUESTION1":"False corporate communications - The subjects of the economic operator listed in art. 80, co. 3, of the legislative decree n. 50/2016 were sentenced with a definitive sentence or criminal decree of conviction that has become irrevocable or sentence applying the penalty upon request pursuant to article 444 of the Criminal Procedure Code for the crimes of false corporate communications referred to in articles 2621 and 2622 of Civil Code? The economic operator is not required to declare the sentence if: the exclusion period established by the sentence or decree or provided for by art. 80, co. 10 and 10-bis of Legislative Decree no. 50/2016; the offense was decriminalized; rehabilitation took place; the perpetual accessory penalty has been declared extinct pursuant to Article 179, seventh paragraph, of the Criminal Code; the offense was declared extinct after the conviction; the sentence was revoked. (Article 80, paragraph 1, letter b-bis), Legislative Decree no. 50/2016) Convictions involving prohibitions on contracting with the public administration - The subjects of the economic operator listed in art. 80, co. 3, of the legislative decree n. 50/2016 were sentenced with a definitive sentence or criminal decree which has become irrevocable or sentence applying the penalty upon request pursuant to Article 444 of the Code of Criminal Procedure for any other crime from which, as an ancillary penalty, the incapacity to negotiate with the public administration? The economic operator is not required to declare the sentence if: the exclusion period established by the sentence or decree has ended; the offense was decriminalized; rehabilitation took place; the perpetual accessory penalty has been declared extinct pursuant to Article 179, seventh paragraph, of the Criminal Code; the offense was declared extinct after the conviction; the sentence was revoked. (Article 80, paragraph 1, letter g), Legislative Decree no. 50/2016)",
+        "QUESTION2":"False corporate communications - The subjects of the economic operator listed in art. 80, co. 3, of the legislative decree n. 50/2016 were sentenced with a definitive sentence or criminal decree of conviction that has become irrevocable or sentence applying the penalty upon request pursuant to article 444 of the Criminal Procedure Code for the crimes of false corporate communications referred to in articles 2621 and 2622 of Civil Code? The economic operator is not required to declare the sentence if: the exclusion period established by the sentence or decree or provided for by art. 80, co. 10 and 10-bis of Legislative Decree no. 50/2016; the offense was decriminalized; rehabilitation took place; the perpetual accessory penalty has been declared extinct pursuant to Article 179, seventh paragraph, of the Criminal Code; the offense was declared extinct after the conviction; the sentence was revoked. (Article 80, paragraph 1, letter b-bis), Legislative Decree no. 50/2016) Convictions involving prohibitions on contracting with the public administration - The subjects of the economic operator listed in art. 80, co. 3, of the legislative decree n. 50/2016 were sentenced with a definitive sentence or criminal decree which has become irrevocable or sentence applying the penalty upon request pursuant to Article 444 of the Code of Criminal Procedure for any other crime from which, as an ancillary penalty, the incapacity to negotiate with the public administration? The economic operator is not required to declare the sentence if: the exclusion period established by the sentence or decree has ended; the offense was decriminalized; rehabilitation took place; the perpetual accessory penalty has been declared extinct pursuant to Article 179, seventh paragraph, of the Criminal Code; the offense was declared extinct after the conviction; the sentence was revoked. (Article 80, paragraph 1, letter g), Legislative Decree no. 50/2016)",
+        "QUESTION3":"1) They exist for the subjects referred to in art. 80, paragraph 3, of the Code causes of forfeiture, suspension or prohibition provided for in article 67 of Legislative Decree 6 September 2011, n. 159, or of an attempt of mafia infiltration referred to in Article 84, paragraph 4, of the same decree (Article 80, paragraph 2, of the Code)? The economic operator is not required to declare the cause of exclusion if a provision has been adopted that provides for the judicial administration provided for in Article 34 of Legislative Decree 159/2011 or the judicial control provided for by art. 34-bis, paragraph 6, of the same decree",
+        "QUESTION4":"2) t has been subject to the interdictory sanction referred to in article 9, paragraph 2, letter c) of the legislative decree 8 June 2001, n. 231 or another sanction that involves the prohibition of contracting with the public administration, including the disqualification provisions referred to in Article 14 of Legislative Decree 9 April 2008, n. 81 (Article 80, paragraph 5, letter f);",
+        "QUESTION5":"6) Has violated the rules governing the right to work of disabled persons as per law 12 March 1999, n. 68 (Article 80, paragraph 5, letter i); The economic operator is not required to declare the violation if the exclusion period provided for by art. 80, co. 10-bis of Legislative Decree no. 50/2016.",
+        "QUESTION6":"9) The economic operator is in the condition provided for by art. 53 paragraph 16-ter of Legislative Decree 165/2001 (pantouflage or revolving door) in that it has entered into subordinate or independent employment contracts and, in any case, has assigned tasks to former employees of the contracting authority that have ceased their employment relationship for less than three years and in the last three years of service have exercised authoritative or negotiating powers on behalf of the same contracting authority against the same economic operator?",
+        "ANSWER":"Your answer?",
+        "EVIDENCE":"Is this information available electronically?",
+        "SELF-CLEANING":"Have you taken measures to demonstrate your reliability (Self-Cleaning)?",        
+        "CONVICTIONS-DATE":"Date of conviction",
+        "CONVICTIONS-DA":"Lenght of conviction from",
+        "CONVICTIONS-A":"Lenght of conviction to",
+        "REASON":"Reason",
+        "CONVICTED":"Who has been convicted",
+        "PERIOD-ESCLUSION-DA":"Length of the period of exclusion from",
+        "PERIOD-ESCLUSION-A":"Length of the period of exclusion to",
+        "DESCRIBE":"Please describe them"
+    },
+    "SC-SUITABILITY1":{
+        "ENROLMENT-RELEVANT":{
+            "TITLE":"Enrolment in a relevant professional register",
+            "DESCRIPTION":"It is enrolled in relevant professional registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.",
+            "SUB-DESCRIPTION":"Is the economic operator enrolled in relevant professional registers kept in the Member State of its establishment as described in Annex XVI of the Legislative Decree no. 50/2016?"
+        },
+        "ENROLMENT-TRADE":{
+            "TITLE":"Enrolment in a trade register",
+            "DESCRIPTION":"It is enrolled in trade registers kept in the Member State of its establishment as described in Annex XI of Directive 2014/24/EU; economic operators from certain Member States may have to comply with other requirements set out in that Annex.",
+            "SUB-DESCRIPTION":"Is the economic operator enrolled in trade registers kept in the Member State of its establishment as described in Annex XVI of the Legislative Decree no. 50/2016?"
+        },
+        "LOT":"Lot ID",
+        "NAME":"Register name",
+        "URL":"URL",
+        "ANSWER":"Your answer",
+        "NUMBER":"Registration number",
+        "REASON":"Reasons why it is not registered",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-SUITABILITY2":{
+        "AUTH-ORG":{
+            "TITLE":"For service contracts: authorisation of particular organisation needed",
+            "DESCRIPTION":"Is a particular authorisation of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?",
+            "SUB-DESCRIPTION":"With reference to art. 83, paragraph 3, of the Code, the economic operator must be in possession of a particular authorization to be able to provide the service in his country of origin?"
+        },
+        "MEMB-ORG":{
+            "TITLE":"For service contracts: membership of particular organisation needed",
+            "DESCRIPTION":"Is a particular membership of a particular organisation needed in order to be able to perform the service in question in the country of establishment of the economic operator?",
+            "SUB-DESCRIPTION":""
+        },
+        "LOT":"Lot ID",
+        "NAME":"Register name",
+        "URL":"URL",
+        "ANSWER":"Your answer",
+        "NUMBER":"Registration number",
+        "REASON":"Reasons why it is not registered",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-GENERAL-YEARLY-TURNOOVER":{
+        "TITLE":"General yearly turnover",
+        "DESCRIPTION":"Its general yearly turnover for the number of financial years required in the relevant notice, the in the ESPD, the relevant notice or the ESPD is as follows:",
+        "SUB-DESCRIPTION":"The economic operator declares the overall annual turnover for the number of years required in the notice, in the tender or in the tender documents.",
+        "MINREQUIREMENT":"Minimum requirement",
+        "AMOUNT":"Amount",
+        "PERIOD-DA":"Start date",
+        "PERIOD-A":"End date",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-GENERAL-AVERAGE-TURNOOVER":{
+        "TITLE":"Average yearly turnover",
+        "DESCRIPTION":"Its average yearly turnover for the number of years required in the relevant notice, the procurement documents or the ESPD is as follows:",
+        "SUB-DESCRIPTION":"",
+        "NUMFISICALYEAR":"Number of fiscal years",
+        "MINREQUIREMENT":"Minimum requirement",
+        "AVERAGE":"Average for the required period",
+        "ADDINFO":"Additional information",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-SPECIFIC-AVERAGE-TURNOOVER":{
+        "TITLE":"Specific average turnover",
+        "DESCRIPTION":"Its specific average yearly turnover in the business area covered by the contract for the number of years required in the relevant notice, the procurement documents or the ESPD is as follows:",
+        "SUB-DESCRIPTION":"",
+        "NUMFISICALYEAR":"Number of fiscal years",
+        "BUSINESS":"Business domain description",
+        "MINREQUIREMENT":"Minimum requirement",
+        "CPV":"CPV Code ( * )",
+        "CPV-NORMAL":"CPV Code",
+        "PERIOD-DA":"Start date",
+        "PERIOD-A":"End date",
+        "AVERAGE":"Amount",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-SPECIFIC-YEARLY-TURNOOVER":{
+        "TITLE":"Specific yearly turnover",
+        "DESCRIPTION":"Its specific yearly turnover in the business area covered by the contract for the number of financial years required in the relevant notice, the procurement documents or the ESPD is as follows:",
+        "SUB-DESCRIPTION":"",
+        "NUMFISICALYEAR":"Number of fiscal years",
+        "BUSINESS":"Business domain description",
+        "MINREQUIREMENT":"Minimum requirement",
+        "CPV":"CPV Code ( * )",
+        "CPV-NORMAL":"CPV Code",
+        "PERIOD-DA":"Start date",
+        "PERIOD-A":"End date",
+        "AVERAGE":"Amount",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-SETUP-EO":{
+        "TITLE":"Set up of economic operator",
+        "DESCRIPTION":"In case the information concerning turnover (general or specific) is not available for the entire period required, please state the date on which the economic operator was set up or started trading:",
+        "SUB-DESCRIPTION":"Start-up period",
+        "DATE":"Please specify",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-PROFESSIONAL-RISK":{
+        "TITLE":"Professional risk indemnity insurance",
+        "DESCRIPTION":"The insured amount in its professional risk indemnity insurance is the following:",
+        "SUB-DESCRIPTION":"",
+        "LOT":"Lot Ids",
+        "ASSURANCE":"Type of insurance",
+        "MINREQ":"Minimum amount",
+        "VALUE":"Amount",
+        "MINAMOUTREQ":"As an EO I will commit to obtain the minimum amount required",
+        "EXEMPT":"I am exempt",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-OTHER-ECONOMIC-FINANCIAL":{
+        "TITLE":"Other economic or financial requirements",
+        "DESCRIPTION":"Concerning the other economic or financial requirements, if any, that may have been specified in the relevant notice or the procurement documents, the economic operator declares that:",
+        "SUB-DESCRIPTION":"",
+        "LOT":"Lot ID",
+        "REQ":"Select the type of requirement",        
+        "FABDESCR":"Description of the economic or financial requirement",
+        "MINREQ":"Minimum amount",
+        "PERIOD-DA":"Start date",
+        "PERIOD-A":"End date",
+        "REQVALUE":"Amount",
+        "MINRATING":"Minimum rating",
+        "INDEXDESCR":"Rating scheme",
+        "INDEXVALUE":"Rating",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-REFERENCES":{
+        "WORKS":{
+            "TITLE":"For works contracts: performance of works of the specified type",
+            "DESCRIPTION":"For public works contracts only: During the reference period, the economic operator has performed the following works of the specified type. Contracting authorities may require up to five years and allow experience dating from more than five years.",
+            "SUB-DESCRIPTION":"For public works contracts only: the economic operator declares the works of the type specified in the notice, tender or tender documents, which he carried out during the required reference period"
+        },
+        "SUPPLY":{
+            "TITLE":"For supply contracts: performance of deliveries of the specified type",
+            "DESCRIPTION":"For public supply contracts only: During the reference period, the economic operator has delivered the following principal deliveries of the type specified. Contracting authorities may require up to three years and allow experience dating back to the last ten years.",
+            "SUB-DESCRIPTION":"For public supply contracts only: during the reference period,  the economic operator delivered the supplies as specified in the relevant notice or in the procurement documents referred to in the notice"
+        },
+        "SERVICE":{
+            "TITLE":"For service contracts: performance of services of the specified type",
+            "DESCRIPTION":"For public service contracts only: During the reference period, the economic operator has provided the following main services of the type specified. Contracting authorities may require up to three years and allow experience dating back to the last ten years.",
+            "SUB-DESCRIPTION":"For public service contracts only: during the reference period, the economic operator provide the services as specified in the relevant notice or in the procurement documents referred to in the notice"
+        },
+        "MINREF":"Minimum number of references",
+        "REQ":"Requirement",
+        "LOT":"Lots IDs",        
+        "DESCREF":"Reference description",
+        "VALUE":"Total amount",
+        "ACTIVITY":"Activity of the economic operator",
+        "SPECVALUE":"Specific amount",
+        "PERIOD-DA":"Start date",
+        "PERIOD-A":"End date",
+        "CONFIDENATIAL":"Confidential",
+        "COMMITNAME":"Recipient name",
+        "NAMECONTACT":"Contact person name",
+        "EMAILCONTACT":"Contact email",
+        "NUMBERCONTACT":"Contact telephone",
+        "EVICENCE":"Is this information available online?"
+    },
+    "SC-ABILITIES1":{
+        "TECHNICINAS":{
+            "TITLE":"Technicians or technical bodies for quality control",
+            "DESCRIPTION":"It can call upon the following technicians or technical bodies, especially those responsible for quality control. For technicians or technical bodies not belonging directly to the economic operator's undertaking but on whose capacities the economic operator relies as set out under Part II, Section C, separate ESPD forms must be filled in."
+        },
+        "WORKS":{
+            "TITLE":"For works contracts: technicians or technical bodies to carry out the work",
+            "DESCRIPTION":"In the case of public works contracts, the economic operator will be able to call on the following technicians or technical bodies to carry out the work:"
+        },
+        "REQ":"Requirement",
+        "NAME":"First name",
+        "LASTNAME":"Last name",
+        "PROFESSION":"Profession",
+        "EXPERIENCE":"Experience",
+        "OTHERINFO":"Other information",
+        "YEAR":"How long with  EO",
+        "EVICENCE":"Is this information available online?",
+        "NAMEBUSINESS":"Name",
+        "AREA":"Experience area"
+        
+    },
+    "SC-ABILITIES2":{
+        "TECHNICAL":{
+            "TITLE":"Technical facilities and measures for ensuring quality",
+            "DESCRIPTION":"It uses the following technical facilities and measures for ensuring quality and its study and research facilities are as follows:"
+        },
+        "STUDY":{
+            "TITLE":"Study and research facilities",
+            "DESCRIPTION":"It uses the following study and research facilities are as follows:"
+        },
+        "SUPPLY":{
+            "TITLE":"Supply chain management",
+            "DESCRIPTION":"It will be able to apply the following supply chain management and tracking systems when performing the contract:"
+        },
+        "ENVIROMENTAL":{
+            "TITLE":"Environmental management measures",
+            "DESCRIPTION":"The economic operator will be able to apply the following environmental management measures when performing the contract:"
+        },        
+        "TOOLS":{
+            "TITLE":"Tools, plant or technical equipment",
+            "DESCRIPTION":"The following tools, plant or technical equipment will be available to it for performing the contract:",
+            "SUB-DESCRIPTION":"With reference to Annex XVII, part II, letters i of the Code, for the execution of the contract, the economic operator will have the following equipment, materials and technical equipment available"
+        },
+        "REQ":"Requirement",
+        "DESCR":"Please describe them",
+        "EVIDENCE":"Is this information available electronically?"
+    },
+    "SC-ABILITIES3":{
+        "TITLE":"Educational and professional qualifications",
+        "DESCRIPTION":"The following educational and professional qualifications are held by the service provider or the contractor itself, and/or (depending on the requirements set out in the relevant notice or the procurement documents by its managerial staff.",
+        "REQ":"Requirement",
+        "NAME":"First name",
+        "LASTNAME":"Last name",
+        "QUALDESCR":"Please describe the educational or professional qualification",
+        "IND":"If possible please indicate the ESCO identifier for this qualification",
+        "DESCR":"If possible please describe the ESCO qualification",
+        "QUALNAME":"Qualification name",
+        "QUALNUMBER":"Qualification number",
+        "DATE":"Qualification issuing date",
+        "QUALORG":"Qualification issuing body",
+        "EVICENCE":"Is this information available online?"
+    },
+    "SC-ABILITIES4":{
+        "TITLE":"Allowance of checks",
+        "DESCRIPTION":"For complex products or services to be supplied or, exceptionally, for products or services which are required for a special purpose: The economic operator will allow checks to be conducted on the production capacities or the technical capacity of the economic operator and, where necessary, on the means of study and research which are available to it and on the quality control measures? The check is to be performed by the contracting authority or, in case the latter consents to this, on its behalf by a competent official body of the country in which the supplier or service provider is established.",
+        "REQ":"Requirement",
+        "VERIFICHE":"Do you allow checks?",
+        "EVIDENCE":"Is this information available online?"
+    },
+    "SC-ABILITIES5":{
+        "STAFF":{
+            "TITLE":"Number of managerial staff",
+            "DESCRIPTION":"The economic operator's number of managerial staff for the last three years were as follows:"
+        },
+        "MANPOWER":{
+            "TITLE":"Average annual manpower",
+            "DESCRIPTION":"The economic operator's average annual manpower for the last three years were as follows:"
+        },
+        "MINYEAR":"Minum number of years",
+        "OTHERINFO":"Additional information",
+        "YEAR":"Year",
+        "NUMBERDIR":"Number",
+        "NUMBERDI":"Number",
+        "EVIDENCE":"Is this information available online?"
+    },
+    "SC-SAMPLES-CERTIFICATES":{
+        "SUPPLYCONTRACTSWITHOUTCA":{
+            "TITLE":"For supply contracts: samples, descriptions or photographs without certification of authenticity",
+            "DESCRIPTION":"For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied, which do not need to be accompanied by certifications of authenticity."
+        },
+        "SUPPLYCONTRACTSWITHCA":{
+            "TITLE":"For supply contracts: samples, descriptions or photographs with certification of authenticity",
+            "DESCRIPTION":"For public supply contracts: The economic operator will supply the required samples, descriptions or photographs of the products to be supplied and will provide certifications of authenticity where applicable."
+        },
+        "ANSWER":"Your answer?",
+        "EVICENCE":"Is this information available electronically?"
+    },
+    "SC-QUALITY-ASSURANCE":{
+        "QUALITY-CONTROL":{
+            "TITLE":"For supply contracts: certificates by quality control institutes",
+            "DESCRIPTION":"Can the economic operator provide the required certificates drawn up by official quality control institutes or agencies of recognised competence attesting the conformity of products clearly identified by references to the technical specifications or standards, which are set out in the relevant notice or the procurement documents?"
+        },
+        "QA":{
+            "TITLE":"Certificates by independent bodies about quality assurance standards",
+            "DESCRIPTION":"Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required quality assurance standards, including accessibility for disabled persons?"
+        },
+        "ENVINROMENTAL":{
+            "TITLE":"Certificates by independent bodies about environmental management systems or standards",
+            "DESCRIPTION":"Will the economic operator be able to produce certificates drawn up by independent bodies attesting that the economic operator complies with the required environmental management systems or standards?"
+        },
+        "REQ":"Requirement",
+        "ANSWER":"Your answer?",
+        "NEGANSWER":"If not, please explain why and state which other means of proof can be provided:",
+        "EVICENCE":"Is this information available online?"
+    },
+
+
+    "DOMANDAEXTRA":{
+        "LABEL" : "Additional information valid nationally",
+        
+        "DESCRIZIONE1" : "The subjects referred to in Article 80, paragraph 3, of the Code were convicted with a final sentence or criminal decree of irrevocable sentence or sentence of application of the sentence upon request pursuant to Article 444 of the Code of Criminal Procedure for the aforementioned offense and according to this conviction is still applicable an exclusion period established by the sentence or by the decree or provided for by article 80, paragraph 10 of the Code?",
+        "DESCRIZIONE2" : "L'operatore economico ha violato, per quanto di sua conoscenza, obblighi applicabili in materia di diritto ambientale, di cui all’articolo 80, comma 5, lett. a), del Codice ?",
+        "DESCRIZIONE3" : "The economic operator is in one of the following situations or is subject to a procedure for ascertaining one of the following situations referred to in Article 80, paragraph 5, lett. b) of the Code: bankruptcy?",
+        "DESCRIZIONE4" : "The bankruptcy trustee has been authorized for the provisional exercise and has been authorized by the delegated judge to participate in procedures for the awarding of public contracts (Article 110, paragraph 3, letters a) of the Code)?",
+        "DESCRIZIONE5" : "The economic operator is in one of the following situations or is subject to a procedure for ascertaining one of the following situations referred to in Article 80, paragraph 5, lett. b) of the Code: compulsory liquidation?",
+        "DESCRIZIONE6" : "The economic operator is in one of the following situations or is subject to a procedure for ascertaining one of the following situations referred to in Article 80, paragraph 5, lett. b) of the Code: prior arrangement?",
+        "DESCRIZIONE7" : "Is the economic operator in another situation similar to the failure resulting from a similar procedure under national laws and regulations?  This information is not an esclusion ground for  italian law",
+        "DESCRIZIONE8" : "Are the economic operator's activities administered by a liquidator or by the court? This information is not an esclusion ground for  italian law",
+        "DESCRIZIONE9" : "Has economic operator been guilty of serious professional malfeasures pursuant to art. 80 paragraph 5 letter c) of the Code?",
+        "DESCRIZIONE10" : "Has the economic operator signed agreements with other economic operators aimed at distorting competition pursuant to art. 80, paragraph 5, lett. c of the Code?",
+        "DESCRIZIONE11" : "Is the economic operator aware of any conflict of interest related to his participation in the tender procedure (Article 80, paragraph 5, letter d) of the Code)?",
+        "DESCRIZIONE12" : "Has the economic operator or a related company provided advice to the contracting authority or contracting entity or have otherwise participated in the preparation of the award procedure (Article 80, paragraph 5, letter e) of the Code?",
+        "DESCRIZIONE13" : "The economic operator was responsible for significant deficiencies in the execution of a previous contract or concession contract that caused early termination, not challenged in court, or confirmed at the outcome of a judgment, or gave rise to a conviction for damages or other sanctions pursuant to art. 80, paragraph 5, letter c) ter of the Code.",
+        "DESCRIZIONE15" : "The economic operator can confirm: \n  a) not to have been seriously guilty of misrepresentation in providing the information required to verify the absence of grounds for exclusion or compliance with the selection criteria, \n b) not to have concealed this information,\n c) that it could not, without delay, present the supporting documents required by a contracting authority or a contracting entity;\n (d) Has it committed to unduly influence the decision-making process of the contracting authority or contracting entity in order to obtain confidential information that could give it undue advantages in the procurement procedure or provide misleading information that may have material influence on the decisions concerning exclusion, selection or award?",
+        "DESCRIZIONE16" : "Has the economic operator violated, to the best of his knowledge, applicable obligations in the field of social law, as per article 80, paragraph 5, lett. a) of the Code?",
+        "DESCRIZIONE17" : "If the criterion in question is affirmative, has the economic operator  taken sufficient measures to demonstrate its reliability despite the existence of a relevant ground for exclusion (self-regulation or \"Self-Cleaning\"), being in the conditions referred to in Article 80, paragraph 7 of the Code?",
+        "DESCRIZIONE18" : "It is registered in a professional register held in the Member State of establishment",
+        "DESCRIZIONE19" : "Is a particular authorization required by a particular organization (lists, registers, etc.) required to provide the service in question in the country where the economic operator is established?",        
+        "DESCRIZIONE20" : "Is a particular membership of a particular organization required (lists, registers, etc.) to be able to provide the service in question in the country where the economic operator is established?",
+        "DESCRIZIONE21" : "The average annual turnover of the economic operator for the number of years required in the relevant notice or call or in the tender documents is as follows",
+        "DESCRIZIONE22" : "The average annual turnover of the economic operator in the sector and the number of years specified in the notice or relevant tender notice or in the tender documents is as follows",
+        "DESCRIZIONE23" : "The annual (\"specific\") turnover of the economic operator in the sector of activity covered by the contract and specified in the relevant notice or call or in the procurement documents for the requested number of financial years is as follows:",
+        "DESCRIZIONE24" : "With regard to the financial indices specified in the relevant notice or call or in the tender documents pursuant to art. 83 paragraph 4, lett. b) of the Code, the economic operator declares that the current values of the required indices are as follows:",
+        "DESCRIZIONE26" : "Only for public service contracts: During the reference period, the economic operator has provided the following main services of the specified type: Indicate in the list the amounts, dates and recipients, whether public or private:",
+        "DESCRIZIONE27" : "It may have the following technicians or technical bodies, citing in particular those responsible for quality control:",
+        "DESCRIZIONE28" : "In the specific case of public works contracts, the economic operator will be able to call on the following technicians or technical bodies to carry out the work",
+        "DESCRIZIONE29" : "The economic operator intends to subcontract the following portion (expressed as a percentage) of the contract amount:",
+        "DESCRIZIONE30" : "For public supply contracts: the economic operator will provide the required samples, descriptions or photographs of the products to be supplied and provide certification of authenticity, where applicable.",
+        "DESCRIZIONE31" : "Can the economic operator submit certificates issued by independent bodies to certify that he respects certain environmental management systems or standards?",
+        "DESCRIZIONE32" : "It is registered in a commercial register held in the Member State of establishment",
+        "DESCRIZIONE33" : "Has the economic operator violated, to the best of his knowledge, applicable obligations in the field of social law LABOUR LAW, as per article 80, paragraph 5, lett. a) of the Code?"
+    },
+    
+
+    "DOMANDAUE":{
+        "LABEL":"Is this information available free of charge to the authorities in a database of an EU Member State?"
+    },
+	"RISPOSTEUE":{
+        "LABEL1":"Web address",
+        "LABEL2":"Precise reference of the documentation",
+        "LABEL3":"Authority or issuing body"
+    },
+
+
+    "DOMANDEGENERICHE":{
+        "LABEL1":"Your answer",
+        "LABEL2":"Date of conviction",
+        "LABEL3":"Reason",
+        "LABEL4":"Who has been convicted",
+        "LABEL5":"Length of the period of exclusion",
+        "LABEL6":"Has the economic operator taken measures to demonstrate its reliability (Self-Cleaning)?",
+        "LABEL7":"Please describe them",
+        "LABEL8":"Please describe them",
+        "LABEL9":"Your answer",
+        "LABEL10":"Has the economic operator fully compensated the damage?",
+        "LABEL11":"Has the economic operator formally committed itself to compensating the damage?",
+        "LABEL12":"the economic operator has taken concrete measures of a technical or organizational nature and related to personnel suitable for preventing further offenses or crimes. If so, describe the measures.",
+        "LABEL13":"Please describe them",
+        "LABEL14":"Country or member state concerned",
+        "LABEL15":"Amount concerned",
+        "LABEL16":"Has this breach of obligations been established by means other than a judicial or administrative decision?",
+        "LABEL17":"Please describe which means were used",
+        "LABEL18":"Has the economic operator fulfilled its obligations by paying or entering into a binding arrangement with a view to paying the social security contributions due, including, where applicable, any interest accrued or fines?",
+        "LABEL19":"If this breach of obligations was established through a judicial or administrative decision, was this decision final and binding?",
+        "LABEL20":"Please indicate the date of conviction or decision",
+        "LABEL21":"In case of a conviction insofar as established directly therein, the length of the period of exclusion",
+        "LABEL22":"If so, has the economic operator taken sufficient measures to demonstrate its reliability despite the existence of a relevant ground for exclusion (self-regulation or \"self-cleaning\")?",
+        "LABEL23":"If relevant documentation is available electronically, please indicate",
+        "LABEL24":"2) Has the economic operator adopt measures of a technical or organizational nature relating to personnel suitable for preventing further offenses or crimes? (Prevention is foreseen by the Directive, Article 57 paragraph 6.)",
+        "LABEL25":"[Additional information; e.g. no evidences online]",
+        "LABEL26":"Please describe them",
+        "LABEL27":"Please describe them",
+        "LABEL28":"Indicate why the economic operator will still be able to execute the contract, taking into account the applicable national rules and measures in relation to the continuation of activities in the situations cited",
+        "LABEL29":"Is there a prior arrangement with business continuity?",
+        "LABEL31":"Participation in the awarding procedure was subordinated pursuant to art. 110, paragraph 5, to the use of another economic operator?",
+        "LABEL32":"If so, indicate the auxiliary company",
+        "LABEL33":"Have you taken measures to demonstrate your reliability ",
+        "LABEL34":"Please describe them",
+        "LABEL36":"Please describe them",
+        "LABEL37":"In the event of an affirmative answer concerning the case: c) He could not, without delay, submit the supporting documents requested by a contracting authority or a contracting entity the economic operator has taken sufficient measures to demonstrate its reliability despite the existence of a relevant ground for exclusion (self-regulation or \"Self-Cleaning\", see Article 80, paragraph 7)",
+        "LABEL38":"In the event of an affirmative answer concerning the case: d) You have undertaken to unduly influence the decision-making process of the contracting authority or contracting entity, in order to obtain confidential information that could give it undue advantages in the procurement procedure or provide misleading information that can they have a material influence on decisions regarding exclusion, selection or award? the economic operator has taken sufficient measures to demonstrate its reliability despite the existence of a relevant ground for exclusion (self-regulation or \"Self-Cleaning\", see Article 80, paragraph 7)",
+        "LABEL39":"They exist for the subjects referred to in art. 80, paragraph 3, of the Code causes of forfeiture, suspension or prohibition provided for in article 67 of Legislative Decree 6 September 2011, n. 159, or of an attempt of mafia infiltration referred to in Article 84, paragraph 4, of the same decree (Article 80, paragraph 2, of the Code)?",
+        "LABEL40":"1. It has been subject to the interdictory sanction referred to in article 9, paragraph 2, letter c) of the legislative decree 8 June 2001, n. 231 or another sanction that involves the prohibition of contracting with the public administration, including the disqualification provisions referred to in Article 14 of Legislative Decree 9 April 2008, n. 81 (Article 80, paragraph 5, letter f);",
+        "LABEL41":"3. It is registered in the electronic database kept by the ANAC Observatory for having presented false declarations or false documentation for the issue of the qualification certificate, for the period during which the registration is available (Article 80, paragraph 5, letter g);",
+        "LABEL42":"4. Has violated the prohibition of the fiduciary registration referred to in Article 17 of the Law of 19 March 1990, n. 55 (Article 80, paragraph 5, letter h",
+        "LABEL43":"the date of the definitive ascertainment",
+        "LABEL44":"the authority or body of issue:",
+        "LABEL45":"Has the violation been removed?",
+        "LABEL46":"5. Has violated the rules governing the right to work of disabled persons as per law 12 March 1999, n. 68 (Article 80, paragraph 5, letter i);",
+        "LABEL47":"6. He has been the victim of the planned crimes and punished by articles 317 and 629 of the penal code aggravated according to article 7 of the decree-law of 13 May 1991, n. 152, converted, with modifications, from the law 12 July 1991, n. 203?",
+        "LABEL48":"has he reported the facts to the judicial authority?",
+        "LABEL49":"- the cases provided for in the first paragraph of Article 4 of the Law of 24 November 1981, n. 689 (article 80, paragraph 5, letter l)?",
+        "LABEL50":"7. It is in relation to another participant in the same custody procedure, in a control situation referred to in Article 2359 of the Italian Civil Code or in any report, even de facto, if the control situation or the relationship implies that the offers are attributable to a single decision-making center (Article 80, paragraph 5, letter m)?",
+        "LABEL51":"8. The economic operator is in the condition provided for by art. 53 paragraph 16-ter of Legislative Decree 165/2001 (pantouflage or revolving door) in that it has entered into subordinate or independent employment contracts and, in any case, has assigned tasks to former employees of the contracting authority that have ceased their employment relationship for less than three years and in the last three years of service have exercised authoritative or negotiating powers on behalf of the same contracting authority against the same economic operator?",
+        "LABEL52":"The economic operator has committed serious infringements, duly verified, to the rules on health and safety at work referred to in Article 80, paragraph 5, lett. a) of the Code?",
+        "LABEL53":"2. It is registered in the electronic database kept by the ANAC Observatory for having presented false declarations or false documentation in the tender procedures and subcontracts, for the period during which the registration in the electronic database is available (Article 80, paragraph 5) , letter f-ter);",
+        "LABEL54":"Have you taken measures to demonstrate your reliability (Self-Cleaning)?",
+        "LABEL55":"Is this information available electronically?",
+        "LABEL56":"Is this information available electronically?",
+        "LABEL57":"Registration number",
+        "LABEL58":"Reasons why it is not registered",
+        "LABEL59":"Amount",        
+        "LABEL60":"Start date",
+        "LABEL61":"End date",
+        "LABEL62":"Average for the required period",
+        "LABEL63":"Additional information",
+        "LABEL64":"Minimum requirement",
+        "LABEL65":"Please specify",
+        "LABEL66":"Amount",
+        "LABEL67":"As an EO I will commit to obtain the minimum amount required",
+        "LABEL68":"I am exempt",
+        "LABEL69":"Amount",
+        "LABEL70":"Rating",
+        "LABEL71":"Lot ID",
+        "LABEL72":"Reference",
+        "LABEL73":"Reference description",
+        "LABEL74":"Activity of the economic operator",
+        "LABEL75":"Specific amount",
+        "LABEL76":"Confidential",
+        "LABEL77":"Recipient name",
+        "LABEL78":"Contact person name",
+        "LABEL79":"Contact email",
+        "LABEL80":"Contact telephone",
+        "LABEL81":"Technician",
+        "LABEL82":"First name",
+        "LABEL83":"Last name",
+        "LABEL84":"Profession",
+        "LABEL85":"Experience",
+        "LABEL86":"Other information",
+        "LABEL87":"How long with  EO",
+        "LABEL88":"Name",
+        "LABEL89":"Experience area",
+        "LABEL91":"Please describe them",
+        "LABEL92":"Please describe the educational or professional qualification",
+        "LABEL93":"If possible please indicate the ESCO identifier for this qualification",
+        "LABEL94":"If possible please describe the ESCO qualification",
+        "LABEL95":"Qualification name",
+        "LABEL96":"Qualification number",
+        "LABEL97":"Qualification issuing date",
+        "LABEL98":"Qualification issuing body",
+        "LABEL99":"Do you allow checks?",
+        "LABEL100":"Year",
+        "LABEL101":"Number",        
+        "LABEL102":"In case of affirmative answer to the present criterion",
+        "LABEL103":"Share (expressed as a percentage) on the contract amount:",
+        "LABEL104":"If not, please explain why and state which other means of proof can be provided:",
+        "LABEL105":"Please provide your ratio",
+
+        "LABEL106":"For procurement procedures in which a call for competition has been published in the Official Journal of the European Union, the information required under Part I will be automatically retrieved, provided that the electronic ESPD-service is used to generate and fill in the ESPD. Reference of the relevant notice published in the Official Journal of the European Union:",        
+        "LABEL107":"Received notice number",
+        "LABEL108":"Notice number in the OJS:",
+        "LABEL109":"National Official Journal",
+        "LABEL110":"In case publication of a notice in the Official Journal of the European Union is not required, please give other information allowing the procurement procedure to be unequivocally identified (e. g. reference of a publication at national level)",
+        "LABEL111":"Official name:",        
+        "LABEL112":"Country:",
+        "LABEL113":"Type of procedure",
+        "LABEL114":"Title:",
+        "LABEL115":"Short description:",
+        "LABEL116":"File reference number attributed by the contracting authority or contracting entity (if applicable):",
+        "LABEL117":"Name:",        
+        "LABEL118":"Street and number:",
+        "LABEL119":"Postcode:",
+        "LABEL120":"City:",
+        "LABEL121":"Country:",
+        "LABEL122":"Internet address (web address) (if applicable):",        
+        "LABEL123":"E-mail:",
+        "LABEL124":"Telephone:",
+        "LABEL125":"Contact person or persons:",
+        "LABEL126":"VAT number, if applicable:",
+        "LABEL127":"If no VAT number is applicable, please indicate another national identification number, if required and applicable",        
+        "LABEL128":"Is the economic operator a Micro, a Small or a Medium-Sized Enterprise?",
+        "LABEL129":"Only in case the procurement is reserved: is the economic operator a sheltered workshop, a 'social business' or will it provide for the performance of the contract in the context of sheltered employment programmes?",
+        "LABEL130":"What is the corresponding percentage of disabled or disadvantaged workers?",
+        "LABEL131":"If required, please specify which category or categories of disabled or disadvantaged workers the employees concerned belong to?",
+        "LABEL132":"If applicable, is the economic operator registered on an official list of approved economic operators or does it have an equivalent certificate (e.g. under a national (pre)qualification system)?",
+        "LABEL133":"e) Will the economic operator be able to provide a certificate with regard to the payment of social security contributions and taxes or provide information enabling the contracting authority or contracting entity to obtaining it directly by accessing a national database in any Member State that is available free of charge?",
+        "LABEL134":"If the relevant documentation is available electronically, please indicate:",
+        "LABEL135":"a) Please provide the name of the list or certificate and the relevant registration or certification number, if applicable:",
+        "LABEL136":"b) If the certificate of registration or certification is available electronically, please state:",
+        "LABEL137":"c) Please state the references on which the registration or certification is based, and, where applicable, the classification obtained in the official list:",
+        "LABEL138":"d) Does the registration or certification cover all of the required selection criteria?",
+        "LABEL139":"Is the economic operator participating in the procurement procedure together with others?",
+        "LABEL140":"a) Please indicate the role of the economic operator in the group (leader, responsible for specific tasks...):",
+        "LABEL141":"b) Please identify the other economic operators participating in the procurement procedure together:",
+        "LABEL142":"c) Where applicable, name of the participating group:",
+        "LABEL143":"Where applicable, indication of the lot(s) for which the economic operator wishes to tender:",
+        "LABEL144":"First name",
+        "LABEL145":"Date of birth",
+        "LABEL146":"Street and number:",
+        "LABEL147":"Postcode:",
+        "LABEL148":"City:",
+        "LABEL149":"Country:",
+        "LABEL150":"Last name",
+        "LABEL151":"Place of birth",
+        "LABEL152":"E-mail:",
+        "LABEL153":"Telephone:",
+        "LABEL154":"Position/Acting in the capacity of:",
+        "LABEL155":"If needed, please provide detailed information on the representation (its forms, extent, purpose ...):",
+        "LABEL156":"Does the economic operator rely on the capacities of other entities to meet the selection criteria of Part IV and comply with the criteria and rules (if any) of Part V?",
+        "LABEL157":"Does the economic operator intend to subcontract any share of the contract to third parties?",
+        "LABEL158":"If yes and in so far as known, please list the proposed subcontractors:",
+        "LABEL159":"It meets the objective and non discriminatory criteria or rules to be applied in order to limit the number of candidates in the following way: \nIn case certain certificates or other forms of documentary evidence are required, please indicate for each whether the economic operator has the required documents:",
+        "LABEL160":"The economic operator formally declares that the information stated under Parts II - V above is accurate and correct and that it has been set out in full awareness of the consequences of serious misrepresentation.\nThe economic operator formally declares to be able, upon request and without delay, to provide the certificates and other forms of documentary evidence referred to, except where:   \na) The contracting authority or contracting entity has the possibility of obtaining the supporting documentation concerned directly by accessing a national database in any Member State that is available free of charge (on condition that the economic operator has provided the necessary information (web address, issuing authority or body, precise reference of the documentation) allowing the contracting authority or contracting entity to do so. Where required, this must be accompanied by the relevant consent to such access), or\nb) As of 18 October 2018 at the latest (depending on the national implementation of the second subparagraph of Article 59(5) of Directive 2014/24/EU), the contracting authority or contracting entity already possesses the documentation concerned.        \nThe economic operator formally consents to the contracting authority or contracting entity as set out in Part I, gaining access to documents supporting the information, which has been provided in Part III and Part IV of this European Single Procurement Document for the purposes of the procurement procedure as set out in Part I.        \nDate, place and, where required or necessary, signature(s):",
+        "LABEL161":"Date",
+        "LABEL162":"Place",
+        "LABEL163":"Click on \"Overview\" to obtain a summary of the data entered and any notifications of errors or missing data. Then download the DGUE Request file in XML format on your local computer and save it. The Contracting Authority must ensure that this ESPD file is available to economic operators together with the other tender documents.",
+        "LABEL164":"signatures",
+        "LABEL165":"E' stato autorizzato dal giudice delegato ai sensi dell’ articolo 110, comma 3, lett. a) del Codice?",
+        "LABEL166":"Number of employees",
+        "LABEL167":"Turnover",
+        "LABEL168":"Is the economic operator participating in the procurement procedure in a group (Consortium, Joint Venture or other)?",
+        "LABEL169":"Name of the group (Consortium, Joint Venture or other):",
+        "LABEL170":"Role",
+        "LABEL171":"Lenght of Conviction",
+        "LABEL172":"Is there a prior arrangement with business continuity?",
+        "LABEL173":"It has been authorized by the delegated judge pursuant to article 110, paragraph 3, lett. a) of the Code?",
+        "LABEL174":"Participation in the awarding procedure was subordinated pursuant to art. 110, paragraph 5, to the use of another economic operator?",
+        "LABEL175":"If so, indicate the auxiliary company",  
+        "LABEL176":"If the relevant relevant documentation is available electronically, indicate (web address, authority or issuing body, precise reference of the documentation):",
+        "LABEL177":"Share (expressed as a percentage) on the contract amount:",
+        "LABEL178":"Periodo di esclusione da:",
+        "LABEL179":"Periodo di esclusione a:",
+        "LABEL180":"Durata della condanna da:",
+        "LABEL181":"Durata della condanna a:",
+        "LABEL182":"Classification:",
+        "LABEL183":"Select the type of requirement",
+        "LABEL184":"Requirement",
+        "LABEL185":"Minimum number of references",
+        "LABEL186":"Description of the economic or financial requirement",
+        "LABEL187":"Minimum rating",
+        "LABEL188": "Register name",
+        "LABEL189":"URL",
+        "LABEL190":"Number of fiscal years",
+        "LABEL191":"Currency",
+        "LABEL192":"Number of fiscal years",
+        "LABEL193":"Business domain description",
+        "LABEL194":"Rating scheme",
+        "LABEL195":"Minimum rating",
+        "LABEL196":"Element that specifies the CPV code for works and services",
+        "LABEL197":"Publication number",
+        "LABEL198":"Type of document",
+        "LABEL199":"Name",
+        "LABEL200":"Identifier (eg VAT number)",
+        "LABEL201":"Activities carried out (for this specific procedure)",
+        "LABEL202":"National identifier of the service provider (eg VAT number).",
+        "LABEL203":"Service provider website",
+        "LABEL204":"Electronic address of the service provider",
+        "LABEL205":"Indicate the official name of the service provider",
+        "LABEL206":"Country identification code of the service provider",
+        "LABEL207":"Please describe them",
+        "LABEL208":"Lot number",
+        "LABEL209":"CIG number",
+        "LABEL210":"name of the Head of the Procedure",
+        "LABEL211":"Company name of the contracting authority",
+        "LABEL212":"National identifier of the contracting authority (eg VAT number)",
+        "LABEL213":"URL of the section of the website of the contracting authority, which contains information on the contracting authority, the rules applied at the time of the conclusion of the contract, published notices, preventive notices and calls for tender as well as the related tender documents, contract award notices, etc. .",
+        "LABEL214":"Contracting authority website",
+        "LABEL215":"Electronic address of the contracting authority",
+        "LABEL216":"Street",
+        "LABEL217":"City",
+        "LABEL218":"Postal code",
+        "LABEL219":"Country identification code. Valid country lists are registered with ISO 3166-1 Maintenance agency, \"Codes for the representation of names of countries and their subdivisions \". It is recommended to use the ISO 3166-1 2A: 2006 encoding",
+        "LABEL220":"Telephone number of the Head of the Procedure or the Head of the Information Office",
+        "LABEL221":"Fax number of the Head of the Procedure or the Head of the Information Office",
+        "LABEL222":"E-mail address of the Head of the Procedure or the Head of the Information Office",
+        "LABEL223":"Object of the contract",
+        "LABEL224":"Number of Lots",
+        "LABEL225":"Tenders may be submitted for",
+        "LABEL226":"Maximum number of lots",
+        "LABEL227":"Maximum number of lots that may be awarded to one tenderer",
+        "LABEL228":"Please take into account the following requirements regarding the lots of this procurement procedure:",
+        "LABEL229":"Lot ID",
+        "LABEL230":"This criterion will be weighted",
+        "LABEL231":"Threshold",
+        "LABEL232":"Total amount",        
+        "LABEL233":"Definition",
+        "LABEL234":"Insurance type",
+        "LABEL235":"Ratio Type",
+        "LABEL236":"Document URL",
+        "LABEL237":"Number of employees",
+        "LABEL238":"Click on \"Overview\" to obtain a summary of the data entered and any notifications of errors or missing data. Then download the DGUE Response file in XML format on the local computer and save it. The file must be attached to the digital offer documentation for the tender in question, following the instructions provided by the Contracting Authority (such as, for example, how to affix the digital signature, digital envelope in which to include the file, etc.).",
+        "LABEL239":"SIMOG identifier"
+    },
+    "FORM-GROUP": {
+        "AGGIUNGI": "Add",
+        "ELIMINA": "Delete"
+    },
+    "COMBOBOX": {
+        "SI": "Yes",
+        "NO": "No"
+    },
+    "ERRORS":{
+        "ERROR_PANEL_HEADER": "Caution! Some errors has occured",
+        "POPOLAMENTO":{
+            "POPOLATO_ESCLUSIONE":"To proceed with this task you need to visit esclusion section.",
+            "POPOLATO_SELEZIONE":"To proceed with this task you need to visit selection section."
+        },
+        "GENERATION_XML_REQUEST": "there was a problem reading the XML, check that you have filled the fields correctly and retry the operation"
+    },
+    "WARNINGS":{
+        "WARNING_PANEL_HEADER": "Caution! Some warnings has occured",
+        "POPOLAMENTO":{
+            "POPOLATO_ESCLUSIONE":"To proceed with the download you need to visit esclusion section.",
+            "POPOLATO_SELEZIONE":"To proceed with the download need to visit selection section."
+        }
+    },
+    "START_PAGE":{
+        "WELCOME":"Welcome to the ESPD service",
+        "TEXT":"The Single European Tendering Document (ESPD) is a self-declaration by the company on its financial situation, its capabilities and its suitability for a public procurement procedure. Thanks to the ESPD, bidders no longer have to provide full documentary evidence and resort to the different forms previously used in EU procurement, which constitutes a significant simplification of access to cross-border procurement. Starting from October 2018, the ESPD is provided exclusively in electronic form. Tenderers may be excluded from the procurement procedure or prosecuted if seriously false, omitted or unsubstantiated information is presented in the ESPD by supporting documents.",
+        "ACCESS":"Access the data compilation service",    
+        "ACCESS_FROM_PORTALE_E_APPALTI":"proceed to data entry",
+        "HELP":"Help  ",
+        "OPEN_FILE":"Open an XML file of a DGUE in read-only mode"
+    },
+
+    "NAVIGATION_BUTTON":{
+        "BACK":"Previous",
+        "CANCEL":"Cancel",
+        "NEXT":"Next",
+        "SUMMARY":"Overview",
+        "DOWNLOAD":"Download",
+        "XML":"XML",
+        "PDF":"PDF",
+        "BOTH":"both",        
+        "JSON":"JSON"
+    },
+    "BUTTONS": {        
+        "ANNULLA": "Cancel",       
+        "SET": "Confirmation"  ,
+        "CLOSE":"Click here to reset",
+        "UPDATE":"Click here to insert or edit a CPV by selecting it from the archive"  
+    },
+    "CPV": {
+        "CALCULATED": "selected CPV",
+        "PLACEHOLDER": "Search by code or by part of the text"
+    },
+    "BREADCRUMBS":{
+        "START":"Start",
+        "PROCEDURE":"Procedure",
+        "ESCLUSION":"Esclusion",
+        "SELECTION":"Selection",
+        "END":"Finish"
+    },
+    "HEADER":{
+        "GOVERNMENT":"Governo italiano",
+        "PUBLIC":"Servizio Contratti Pubblici",
+        "DGUE":"Documento di gara unico europeo (DGUE)",
+        "MIT":"Ministero delle Infrastrutture e dei Trasporti",
+        "DISIS":"Dipartimento per le infrastrutture, sistemi informativi e statistici ",
+        "DRCP":"Direzione generale per la regolazione ed i contratti pubblici",
+        "COLLABORATION":"in collaborazione con la ",
+        "REGION":" Conferenza delle Regioni e Province Autonome",
+        "E":" e ",
+        "ITACA":"ITACA"
+    },
+    "HEADER_MIMS":{        
+        "PUBLIC":"Ministero delle infrastrutture e della mobilità sostenibili"
+        
+    },
+    "HEADER_SICILIA":{
+        "PUBLIC":"Regione Siciliana"
+    },
+    "FOOTER_MIMS":{
+        "PUBLIC":"Documento di gara unico europeo (DGUE)",          
+        "MIT":" Ministero delle infrastrutture e della mobilità sostenibili",       
+        "PRIVACY":"Privacy policy",
+        "LEGAL_NOTE":"Note legali",
+        "CONTACT":"Contatti"
+    },
+    "FOOTER":{
+        "PUBLIC":"Servizio Contratti Pubblici",          
+        "MIT":"  Ministero delle Infrastrutture e dei Trasporti",
+        "DISIS":"  Dipartimento per le infrastrutture, sistemi informativi e statistici",
+        "DRCP":" Direzione generale per la regolazione ed i contratti pubblici",
+        "PRIVACY":"Privacy policy",
+        "LEGAL_NOTE":"Note legali",
+        "CONTACT":"Contatti"
+    },
+    "PAGE_AVVIO":{
+        "CHI":"Who are you?",
+        "SA":"I am a contracting authority ",
+        "OE":"I am an economic operator ",
+        "AZIONI":"What would you like to do?",
+        "IMPORTARE_SA":"Import ESPD request",
+        "IMPORTARE_OE":"Import ESPD response",
+        "COMPILARE":"Create response",
+        "CARICARE":"Upload document",
+        "CARICARE_XML":"Please upload an ESPD Request or an ESPD Response",
+        "MODIFICA_SA":"Review an ESPD request",
+        "NUOVO_SA":"Fill in the ESPD directly"
+    },
+
+    
+    "COLLAPSE":{
+        "PROCEDURA_OP":{
+            "TITLE1":"Part I: Publication information",
+            "TITLE2":"Contracting authority",
+            "TITLE3":"Information on the procurement procedure",
+            "TITLE4":"Part II: A: Information about economic operator",
+            "TITLE5":"B: Information about representatives of the economic operator",
+            "TITLE6":"C: Information about reliance on the skills of other subjects",
+            "TITLE7":"D: Information about subcontractors whose capacities the economic operator does not rely on",
+            "TITLE8":"Lots of the tender procedure"
+        },
+        "PROCEDURA_SA":{
+            "TITLE1":"Part I: Publication information",
+            "TITLE2":"Contracting authority",
+            "TITLE3":"Information on the procurement procedure"            
+        },
+        "ESCLUSIONE":{
+            "TITLE1":"Part III: A: Reasons related to criminal convictions",
+            "TITLE2":"B: Reasons related to the payment of taxes or social security contributions",
+            "TITLE3":"C: Reasons related to insolvency, conflicts of interest or professional misconduct",
+            "TITLE4":"D: Reasons for exclusion provided exclusively by national legislation"
+        },
+        "SELEZIONE":{
+            "TITLE1":"Part IV: A: Eligibility",
+            "TITLE2":"B: Economic and financial capacity",
+            "TITLE3":"C: Technical and professional skills",
+            "TITLE4":"D: Quality assurance systems and environmental management standards"
+        },
+        "FINE_OP":{
+            "TITLE1":"Part V: Reduction in the number of qualified candidates",
+            "TITLE2":"Part VI: Final statements",
+            "TITLE3":"Export"
+        },
+        "FINE_SA":{
+            "TITLE1":"Part VI: Final statements",
+            "TITLE2":"Export"
+        }
+    },
+    "FORM_SECTION":{
+        "SHOW_MORE":"More",
+        "SHOW_LESS":"Less"
+    },
+    "VALIDATORS": {
+        "MANDATORY": "The field is mandatory",
+        "FORM-NON-COMPILATA": "Alcuni campi obbligatori non sono stati compilati",
+        "MANDATORY_AUTORITY_NAME":"The field \"Company name of the contracting authority\" is mandatory",
+        "MANDATORY_AUTORITY_COUNTRY":"The field \"Country\" (contracting authority) is mandatory",
+        "MANDATORY_AUTORITY_VAT_NUMBER":"The field \"National identifier of the contracting authority (eg VAT number)\" (contracting authority) is mandatory",
+        "MANDATORY_SERVICE_PROVIDER_VAT_NUMBER":"The field \"National identifier of the service provider (eg VAT number)\" (contracting authority) is mandatory",
+        "MANDATORY_SERVICE_PROVIDER_NAME":"The field \"official name of the service provider\" (contracting authority) is mandatory",
+        "MANDATORY_SERVICE_PROVIDER_COUNTRY":"The field \"Country identification code of the service provider\" (contracting authority) is mandatory",
+        "MANDATORY_NUM_LOT":"The field \"Lot number\" is mandatory",
+        "MANDATORY_CIG_LOT":"The field \"CIG number\" is mandatory",
+        "MANDATORY_EO_ROLE":"The field \"Role\" (economic operator) is mandatory",
+        "MANDATORY_EO_NAME":"The field \"Name\" (economic operator) is mandatory",
+        "MANDATORY_EO_COUNTRY":"The field \"Country\" (economic operator) is mandatory",
+        "MANDATORY_EO_VAT_NUMBER":"The field \"VAT number\" (economic operator) is mandatory",
+        "MANDATORY_EO_SERVICE_PROVIDER_VAT_NUMBER":"The field \"National identifier of the service provider (eg VAT number)\" (economic operator) is mandatory",
+        "MANDATORY_EO_SERVICE_PROVIDER_NAME":"The field \"official name of the service provider\" (economic operator) is mandatory",
+        "MANDATORY_EO_SERVICE_PROVIDER_COUNTRY":"The field \"Country identification code of the service provider\" (economic operator) is mandatory",
+        "MANDATORY_EO_REPRESENTATIVES_NAME":"The field \"First name\" (economic operator representatives) is mandatory",
+        "MANDATORY_EO_REPRESENTATIVES_SURNAME":"The field \"Last name rappresentanti dell'operatore economico\" (economic operator representatives) is mandatory",
+        "MANDATORY_EO_REPRESENTATIVES_COUNTRY":"The field \"Country\" (economic operator representatives) is mandatory",
+        "MANDATORY_LOT_SUBMIT":"The field \"Tenders may be submitted for\" is mandatory",
+        "MANDATORY_MAX_LOT":"The field \"Maximum number of lots\" is mandatory",
+        "MANDATORY_MAX_LOT_TENDER":"The field \"Maximum number of lots that may be awarded to one tenderer\" is mandatory",                    
+        "MANDATORY_docTypeCode":"The field \"Type of document\" is mandatory",
+        "MANDATORY_nojcnNumber":"The field \"Publication number\" is mandatory",   
+        "MANDATORY_EO_REPRESENTATIVES_CF":"The field \"VAT numbere\"  of representatives of the economic is mandatory",
+        "FORMAT_EO_REPRESENTATIVES_CF":"The field \"VAT number\" of representatives of the economic has not valid format",
+        "FORMAT_EO__CF":"The field \"VAT number\" of economic operatori has not valid format"
+    },    
+    "primeng": {
+        "startsWith": "Starts with",
+        "contains": "Contains",
+        "notContains": "Not contains",
+        "endsWith": "Ends with",
+        "equals": "Equals",
+        "notEquals": "Not equals",
+        "noFilter": "Nessun filtro",
+        "lt": "Minore di",
+        "lte": "Minore o uguale di",
+        "gt": "Maggiore di",
+        "gte": "Maggiore o uguale di",
+        "is": "\u00C8",
+        "isNot": "Non \u00E8",
+        "before": "Before",
+        "after": "After",
+        "clear": "Clear",
+        "apply": "Apply",
+        "matchAll": "Match All",
+        "matchAny": "Match Any",
+        "addRule": "Add rule",
+        "removeRule": "remove rule",
+        "accept": "Yes",
+        "reject": "No",
+        "choose": "Choose",
+        "upload": "Upload",
+        "cancel": "Cancel",
+        "dayNames": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "thurday",
+            "Friday",
+            "Saturday"
+        ],
+        "dayNamesShort": [
+            "Sun",
+            "Mon",
+            "Tue",
+            "Wed",
+            "Thu",
+            "Fri",
+            "Sat"
+        ],
+        "dayNamesMin": [
+            "Su",
+            "Mo",
+            "Tu",
+            "Ee",
+            "Th",
+            "Fr",
+            "Sa"
+        ],
+        "monthNames": [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ],
+        "monthNamesShort": [
+            "Jan",
+            "Feb",
+            "Mar",
+            "Apr",
+            "May",
+            "jun",
+            "jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec"
+        ],
+        "today": "today",
+        "weekHeader": "St",        
+        "DIALOG":{
+            "BACK-TITLE":"Cancel the compilation",
+            "BACK-TEXT":"Are you sure you want to cancel the compilation? If you leave this page you will lose unsaved data.",
+            "CONFIRM-ACTION":"Yes",
+            "CANCEL-ACTION":"No"
+        }
+    },
+    "VERSIONE":"Version"
+}

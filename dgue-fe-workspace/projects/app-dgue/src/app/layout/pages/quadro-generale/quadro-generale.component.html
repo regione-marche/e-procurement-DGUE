@@ -1,0 +1,25 @@
+<div #content class="content" >  
+    <div class="debug" *ngIf="visibleHiddenFunction">DEBUG MOD</div>        
+    <sdk-form-builder [config]="formBuilderConfigObsProcedura" [data]="formBuilderDataSubject" (output)="manageFormOutputProcedura($event)"></sdk-form-builder>
+    <sdk-form-builder [config]="formBuilderConfigObsEsclusione" [data]="formBuilderDataSubject" (output)="manageFormOutputEsclusione($event)"></sdk-form-builder>
+    <sdk-form-builder [config]="formBuilderConfigObsSelezione" [data]="formBuilderDataSubject" (output)="manageFormOutputSelezione($event)"></sdk-form-builder>
+    <sdk-form-builder [config]="formBuilderConfigObsFine" [data]="formBuilderDataSubject" (output)="manageFormOutputFine($event)"></sdk-form-builder>
+    <div class="warning-panel" #warningspanel></div>
+    <div class="warning-panel" #warningspanel2></div>
+    
+    <div class="error-panel" #errorspanel></div>
+    <div *ngIf="!valid2" style="margin-top: 1em;">CONTROLLI DI VALIDAZIONE SCHEDA PROCEDURA</div>
+    <div class="error-panel" #errorspanel2></div>
+    <div class="succes-panel" #succespanel2></div>
+    <div *ngIf="!valid3" style="margin-top: 1em;">CONTROLLI DI VALIDAZIONE SCHEDA ESCLUSIONE</div>
+    <div class="error-panel" #errorspanel3></div>
+    <div class="succes-panel" #succespanel3></div>
+    <div *ngIf="!valid4" style="margin-top: 1em;">CONTROLLI DI VALIDAZIONE SCHEDA SELEZIONE</div>
+    <div class="error-panel" #errorspanel4></div>
+    <div class="succes-panel" #succespanel4></div>
+</div>
+<div class="loader theme-showcase" *ngIf="isLoading">
+    <div class="loading-mask"></div>
+    <div class="loading-text">Caricamento in corso...</div>  
+</div>
+<app-navigation-button [nextPage]=nextPage [previousPage]=previousPage [download]=downLoadFile [subDownload]=subDownload  [fromPortale]=fromPortale [valid]=valid [env]=env [pagename]=pagename></app-navigation-button>

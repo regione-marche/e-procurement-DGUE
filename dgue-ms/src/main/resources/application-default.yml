@@ -1,0 +1,19 @@
+server:
+  servlet.context-path: /
+  port: 8080
+
+logging:
+ level:
+   root: OFF
+   it.maggioli.eldasoft.dgue: DEBUG
+   org.springframework: INFO
+
+namespaces:
+  map:
+    "[urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2]": cec
+    "[urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2]": cbc
+    "[urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2]": cac
+    "[urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationRequest-2]": espd-req
+    "[urn:oasis:names:specification:ubl:schema:xsd:QualificationApplicationResponse-2]": espd-res
+    
+    

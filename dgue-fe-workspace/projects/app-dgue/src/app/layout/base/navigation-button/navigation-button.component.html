@@ -1,0 +1,67 @@
+
+<div class="form-group"></div>
+<div class="hidden-print">
+    <div class="col-md-offset-3 col-md-6 hidden-print">
+        <div class="btn-group btn-group-justified " role="group">
+            <div *ngIf="(fromPortale === false ||  fromPortale==undefined) && previousPage !== ''" class="btn-group btn-group-hover" role="group">
+                <a id="prevAnchor" class="btn btn-default btn-lg" href="javascript:void(0)" role="button" (click)="previous()">
+                    <i class="far fa-arrow-alt-circle-left"></i> <span>{{"NAVIGATION_BUTTON.BACK" | translate}}</span>
+                </a>
+            </div>
+            <div *ngIf="fromPortale === true && previousPage !== 'avvio' && pagename != 'quadro-generale-appalti'" class="btn-group btn-group-hover" role="group">
+                <a id="prevAnchor" class="btn btn-default btn-lg" href="javascript:void(0)" role="button" (click)="previous()">
+                    <i class="far fa-arrow-alt-circle-left"></i> <span>{{"NAVIGATION_BUTTON.BACK" | translate}}</span>
+                </a>
+            </div>
+            <div *ngIf="fromPortale == false || fromPortale==undefined" class="btn-group btn-group-hover" role="group">
+                <a id="cancelBtn" class="btn btn-default btn-lg" href="javascript:void(0)" role="button" (click)="cancel()">
+                    <i class="fas fa-times-circle"></i>
+                    <span data-i18n="cancel">{{"NAVIGATION_BUTTON.CANCEL" | translate}}</span>
+                </a>
+            </div>
+            
+            <div *ngIf="nextPage!= 'quadro-generale' && nextPage!= ''" class="btn-group" role="group">
+                <button [disabled]="!selectUser" id="nextBtn"  href="javascript:void(0)" class="btn btn-default btn-lg btn-hover" (click)="next()" name="next" value="procedure">
+                    <i class="far fa-arrow-alt-circle-right"></i> <span>{{"NAVIGATION_BUTTON.NEXT" | translate}}</span>
+                </button>
+            </div>
+            <div *ngIf="nextPage=='quadro-generale'" class="btn-group btn-group-hover" role="group">
+                <a id="overviewBtn"  routerLinkActive="active" [routerLink]="['/quadro-generale']" class="btn btn-default btn-lg" value="true" (click)="save()">
+                    <i class="fas fa-print"></i><span>{{"NAVIGATION_BUTTON.SUMMARY" | translate}}</span>
+                </a>
+            </div>
+            
+            <div *ngIf="nextPage==''" class="btn-group btn-group-hover" role="group">
+                <a id="overviewBtn" class="btn btn-default btn-lg" value="true" (click)="downLoadFile('show')">
+                   <span>{{"NAVIGATION_BUTTON.DOWNLOAD" | translate}}</span><span class="symbol">▲</span>
+                </a>
+            </div>
+            <ul *ngIf="subDownload && pagename != 'quadro-generale-appalti'" class="dropdown-menu">
+                <li>
+                    <button [disabled]="!valid" id="downloadXmlButton" type="submit" class="btn btn-default" name="download" value="xml" (click)="downLoadFile('xml')">
+                        <i class="far fa-file-pdf"></i><span >{{"NAVIGATION_BUTTON.XML" | translate}}</span>
+                    </button>
+                </li>
+                <li>
+                    <button [disabled]="!valid" id="downloadPdfButton" type="submit" class="btn btn-default" name="download" value="pdf" (click)="downLoadFile('pdf')">
+                        <i class="far fa-file-pdf"></i><span>{{"NAVIGATION_BUTTON.PDF" | translate}}</span>
+                    </button>
+                </li> 
+                <li *ngIf="env == 'dev' && visibleHiddenFunction">
+                    <button id="downloadJsonButton" type="submit" class="btn btn-default" name="download" value="json" (click)="downLoadFile('json')">
+                        <i class="far fa-file-pdf"></i><span>{{"NAVIGATION_BUTTON.JSON" | translate}}</span>
+                    </button>
+                </li>                
+            </ul>
+            <ul *ngIf="subDownload && pagename == 'quadro-generale-appalti'" class="dropdown-menu">               
+                <li>
+                    <button [disabled]="!valid" id="downloadPdfButton" type="submit" class="btn btn-default" name="download" value="pdf" (click)="downLoadFile('pdf')">
+                        <i class="far fa-file-pdf"></i><span>{{"NAVIGATION_BUTTON.PDF" | translate}}</span>
+                    </button>
+                </li>                              
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-3 hidden-print">&nbsp;</div>
+    <sdk-dialog [config]="dialogConfigObs"></sdk-dialog>
+</div>

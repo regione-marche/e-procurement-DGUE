@@ -1,0 +1,28 @@
+<div class="rup-modal" *ngIf="isReady">
+    <div class="messages-box" #messages></div>
+    <div class="cpv-container">
+        <div class="cpv-modal-testata">
+            <div class="left">
+                <div class="cpv-search-panel">
+                    <sdk-simple-search [config]="searchConfig" [data]="searchData" (output)="onSearchOutput($event)">
+                    </sdk-simple-search>
+                </div>
+                <div class="clean-tree-button">
+                    <sdk-basic-button [config]="buttonCleanConfig" (output)="cleanResearch()"></sdk-basic-button>
+                </div>
+            </div>
+            <div class="right">
+                <div class="cpv-calculated-panel">
+                    <sdk-text [config]="cpvConfigurationObs" [data]="calculateDataSubject"></sdk-text>
+                </div>
+            </div>
+        </div>
+        <div class="tree-container">
+            <sdk-tree [config]="dataConfig" (output)="onOutput($event)"></sdk-tree>
+        </div>
+
+        <div class="buttons-row">
+            <sdk-button-group [config]="buttonsSubj" (output)="onButtonClick($event)"></sdk-button-group>
+        </div>
+    </div>
+</div>

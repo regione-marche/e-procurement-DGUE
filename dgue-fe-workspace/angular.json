@@ -1,0 +1,211 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "newProjectRoot": "projects",
+  "projects": {
+    "app-dgue": {
+      "projectType": "application",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
+      "root": "projects/app-dgue",
+      "sourceRoot": "projects/app-dgue/src",
+      "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:browser",
+          "options": {
+            "allowedCommonJsDependencies": [
+              "hash-sum",
+              "jspdf",
+              "core-js",
+              "rgbcolor",
+              "raf",
+              "dompurify",
+              "html2canvas"
+            ],
+            "outputPath": "dist/m-dgue",
+            "index": "projects/app-dgue/src/index.html",
+            "main": "projects/app-dgue/src/main.ts",
+            "polyfills": "projects/app-dgue/src/polyfills.ts",
+            "tsConfig": "projects/app-dgue/tsconfig.app.json",
+            "assets": [
+              "projects/app-dgue/src/favicon.ico",
+              "projects/app-dgue/src/assets",
+              "projects/app-dgue/src/configurations",
+              "projects/app-dgue/src/manifest.webmanifest"
+            ],
+            "styles": [
+              "node_modules/primeicons/primeicons.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.css",
+              "node_modules/primeng/resources/themes/nova/theme.css",
+              "node_modules/primeng/resources/primeng.min.css",
+              "node_modules/ngx-toastr/toastr.css",
+              "projects/app-dgue/src/base-styles.scss",
+              "projects/app-dgue/src/styles.scss",
+              "projects/app-dgue/src/app/layout/base/base-css.scss"
+            ],
+            "scripts": [],
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true
+          },
+          "configurations": {
+            "production": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/app-dgue/src/environments/environment.ts",
+                  "with": "projects/app-dgue/src/environments/environment.prod.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "8mb",
+                  "maximumError": "32mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "projects/app-dgue/ngsw-config.json"
+            },
+            "development": {
+              "fileReplacements": [
+                {
+                  "replace": "projects/app-dgue/src/environments/environment.ts",
+                  "with": "projects/app-dgue/src/environments/environment.dev.ts"
+                }
+              ],
+              "optimization": true,
+              "outputHashing": "all",
+              "sourceMap": false,
+              "namedChunks": false,
+              "extractLicenses": true,
+              "vendorChunk": false,
+              "buildOptimizer": true,
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "8mb",
+                  "maximumError": "32mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb",
+                  "maximumError": "10kb"
+                }
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "projects/app-dgue/ngsw-config.json"
+            }
+          },
+          "defaultConfiguration": ""
+        },
+        "serve": {
+          "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "buildTarget": "app-dgue:build"
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "app-dgue:build:production"
+            }
+          }
+        },
+        "extract-i18n": {
+          "builder": "@angular-devkit/build-angular:extract-i18n",
+          "options": {
+            "buildTarget": "app-dgue:build"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/app-dgue/src/test.ts",
+            "polyfills": "projects/app-dgue/src/polyfills.ts",
+            "tsConfig": "projects/app-dgue/tsconfig.spec.json",
+            "karmaConfig": "projects/app-dgue/karma.conf.js",
+            "assets": [
+              "projects/app-dgue/src/favicon.ico",
+              "projects/app-dgue/src/assets",
+              "projects/app-dgue/src/manifest.webmanifest"
+            ],
+            "styles": [
+              "projects/app-dgue/src/styles.scss"
+            ],
+            "scripts": []
+          }
+        },
+        "e2e": {
+          "builder": "@angular-devkit/build-angular:protractor",
+          "options": {
+            "protractorConfig": "projects/app-dgue/e2e/protractor.conf.js",
+            "devServerTarget": "app-dgue:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "app-dgue:serve:production"
+            }
+          }
+        }
+      }
+    },
+    "sdk-commons": {
+      "root": "projects/sdk-commons",
+      "sourceRoot": "projects/sdk-commons/src",
+      "projectType": "library",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/sdk-commons/tsconfig.lib.json",
+            "project": "projects/sdk-commons/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/sdk-commons/tsconfig.lib.prod.json"
+            }
+          }
+        }
+      }
+    },
+    "sdk-controls": {
+      "root": "projects/sdk-controls",
+      "sourceRoot": "projects/sdk-controls/src",
+      "projectType": "library",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/sdk-controls/tsconfig.lib.json",
+            "project": "projects/sdk-controls/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/sdk-controls/tsconfig.lib.prod.json"
+            }
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": false
+  }
+}

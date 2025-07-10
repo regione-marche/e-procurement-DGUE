@@ -1,0 +1,16 @@
+<div class="header-mid" >
+  <div>
+      <div class="header-mid-logo">
+        <a href="" target="_blank">					
+          <img src="assets/icons/logo_aec.svg" alt="logo">
+        </a>			  			  
+      </div>			
+  </div>
+  <div class="language">
+    <a #langIt class="selected" href="javascript:void(0);" (click)="changeLang('it')">it</a>
+    |
+    <a #langEn class="noSelected" href="javascript:void(0);" (click)="changeLang('en')">en</a>
+  </div>
+  
+</div>
+<div *ngIf="env == 'dev'" style="font-weight: 700;font-size: 1.5em;padding-top: 0.5em;padding-left: 0.5em;">Ambiente di collaudo</div>

@@ -1,0 +1,118 @@
+{
+    "fieldsSA":[
+        {
+            "_type": "FORM-SECTION",
+            "_code": "collapse19",            
+            "_label": "COLLAPSE.FINE_SA.TITLE1",
+            "_description":"DOMANDEGENERICHE.LABEL160",
+            "_collapse": true, 
+            "_fieldSections": [
+                {
+                                  
+                }
+            ]      
+        },
+        {
+            "type": "FORM-SECTION",
+            "code": "collapse20",
+            "label": "COLLAPSE.FINE_SA.TITLE2",
+            "description":"DOMANDEGENERICHE.LABEL163",
+            "collapse": true, 
+            "fieldSections": [
+                {
+                                 
+                }
+            ]
+        }
+    ],
+    "fieldsOP":[           
+        {
+            "type": "FORM-SECTION",
+            "code": "collapse22",
+            "label": "COLLAPSE.FINE_OP.TITLE2",
+            "description":"DOMANDEGENERICHE.LABEL160",
+            "collapse": true, 
+            "fieldSections": [               
+                {
+                    "type": "DATEPICKER",
+                    "code": "data",
+                    "label": "DOMANDEGENERICHE.LABEL161",
+                    "mappingInput": "signatureDate",
+                    "mappingOutput": "signatureDate"                 
+                },               
+                {
+                    "type": "TEXTBOX",
+                    "code": "location",
+                    "label": "DOMANDEGENERICHE.LABEL162",
+                    "mappingInput": "location",
+                    "mappingOutput": "location",
+                    "maxLength": 100                    
+                },
+                {
+                    "type": "TEXTBOX",
+                    "code": "signature",
+                    "label": "DOMANDEGENERICHE.LABEL164",
+                    "mappingInput": "signature",
+                    "mappingOutput": "signature"               
+                } 
+            ]
+        },
+        {
+            "type": "FORM-SECTION",
+            "code": "collapse23",
+            "label": "COLLAPSE.FINE_OP.TITLE3",
+            "description":"DOMANDEGENERICHE.LABEL238",
+            "collapse": true, 
+            "fieldSections": [
+                {
+                                  
+                }
+            ]      
+        }       
+    ],
+    "fieldsOPExtend":[          
+        {
+            "type": "FORM-SECTION",
+            "code": "collapse22",
+            "label": "COLLAPSE.FINE_OP.TITLE2",
+            "description":"DOMANDEGENERICHE.LABEL160",
+            "collapse": true, 
+            "fieldSections": [               
+                {
+                    "type": "DATEPICKER",
+                    "code": "data",
+                    "label": "DOMANDEGENERICHE.LABEL161",
+                    "mappingInput": "signatureDate",
+                    "mappingOutput": "signatureDate"                 
+                },               
+                {
+                    "type": "TEXTBOX",
+                    "code": "location",
+                    "label": "DOMANDEGENERICHE.LABEL162",
+                    "mappingInput": "location",
+                    "mappingOutput": "location",
+                    "maxLength": 100                    
+                },
+                {
+                    "type": "TEXTBOX",
+                    "code": "signature",
+                    "label": "DOMANDEGENERICHE.LABEL164",
+                    "mappingInput": "signature",
+                    "mappingOutput": "signature"               
+                } 
+            ]
+        },
+        {
+            "type": "FORM-SECTION",
+            "code": "collapse23",
+            "label": "COLLAPSE.FINE_OP.TITLE3",
+            "description":"DOMANDEGENERICHE.LABEL238",
+            "collapse": true, 
+            "fieldSections": [
+                {
+                                  
+                }
+            ]      
+        }       
+    ]     
+}

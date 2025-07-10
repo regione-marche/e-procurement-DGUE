@@ -1,0 +1,146 @@
+
+
+
+<div class="debug" *ngIf="visibleHiddenFunction">DEBUG MOD</div>
+<div class="caricamento-page" *ngIf="isCaricamento">
+   <div class="tab-content">
+      <div class="tab-pane" id="tab-single-upload" style="display: block;">
+         <h3>
+            {{"PAGE_AVVIO.CARICARE" | translate}}
+         </h3>
+         {{"PAGE_AVVIO.CARICARE_XML" | translate}}
+         <input #attachments id="attachments" name="attachments" type="file" value=""  (change)="manageFileSelect($event)">               
+      </div>
+      <div class="error-panel error-panel-avvio" #errorspanel></div> 
+      <div class="warning-panel" #warningspanel></div>
+      <div class="loader theme-showcase" *ngIf="isLoading">
+         <div class="loading-mask"></div>
+         <div class="loading-text">Caricamento in corso...</div>  
+      </div>           
+   </div>         
+   
+  <div class="form-group">
+      <div class="hidden-print">
+          <div class="col-md-offset-3 col-md-6 hidden-print">
+              <div class="btn-group btn-group-justified " role="group">
+                  <div  class="btn-group btn-group-hover" role="group">
+                      <a id="prevAnchor" class="btn btn-default btn-lg" href="javascript:void(0)" role="button" (click)="back()">
+                          <i class="far fa-arrow-alt-circle-left"></i> <span>{{"NAVIGATION_BUTTON.BACK" | translate}}</span>
+                      </a>
+                  </div>
+                  <div class="btn-group btn-group-hover" role="group">                        
+                      <button [disabled]="!selectUser" id="nextBtn"  href="javascript:void(0)" class="btn btn-default btn-lg btn-hover" (click)="navigate()" name="next" value="procedure">
+                          <i class="fas fa-print"></i> <span>{{"NAVIGATION_BUTTON.SUMMARY" | translate}}</span>
+                      </button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<div *ngIf="!isCaricamento">
+   <app-breadcrumb [showBreadcrumbs]=showBreadcrumbs [classConfig]=breadcrumbsConfig></app-breadcrumb>
+   <div class="content"> 
+      <div>
+         <h3>
+            <span >{{"PAGE_AVVIO.CHI" | translate}}</span> <span title="Il servizio DGUE può essere utilizzato sia dalle amministrazioni aggiudicatrici sia dagli operatori economici. Selezionare l'opzione che corrisponde al profilo del compilatore in questa procedura di appalto pubblico." ></span>
+         </h3>
+         
+         <div class="row">
+            <div class="col-sm-6 col-md-3 question">
+               <div class="radio radio25">
+                  <label><input id="whoareyou_sa" name="agent" class="radiotab" type="radio" value="sa"  (change)="onItemSelectUser($event)" ><span>{{"PAGE_AVVIO.SA" | translate}}</span></label>
+                  <span title="Il termine"></span>
+               </div>
+               
+               <div class="radio radio25">
+                  <label><input id="whoareyou_eo" name="agent" class="radiotab" type="radio" value="eo" (change)="onItemSelectUser($event)" ><span>{{"PAGE_AVVIO.OE" | translate}}</span></label>
+                  <span title="Il termine"></span>
+               </div>
+            </div>
+         </div>
+         <div *ngIf='showOption'>
+            <div class="tab-content" >
+               <div class="tab-pane" id="tab_eo" style="display: block;">
+                  <h3>
+                     {{"PAGE_AVVIO.AZIONI" | translate}}
+                  </h3>
+                  <div class="radio">
+                     <span class="k-button fas fa-upload hoverable"></span> <label><input id="action4" name="action" data-target="#tab-single-upload" class="radiotab radioCa" type="radio" value="eo_import_espd" (change)="onItemImportCreate($event,'SA')"><span>{{"PAGE_AVVIO.IMPORTARE_SA" | translate}}</span></label>
+                     <span title="L'operatore economico può importare il file del DGUE che l'amministrazione aggiudicatrice ha precompilato per la procedura di appalto pubblico in questione e pubblicato insieme al bando di gara."></span>
+                  </div>
+                  <div class="radio">
+                     <span class="k-button fas fa-upload hoverable"></span> <label><input id="action5" name="action" data-target="#tab-single-upload" class="radiotab radioCa" type="radio" value="eo_import_espd" (change)="onItemImportCreate($event,'OE')"><span>{{"PAGE_AVVIO.IMPORTARE_OE" | translate}}</span></label>
+                     <span title="L'operatore economico può importare il file del DGUE che l'amministrazione aggiudicatrice ha precompilato per la procedura di appalto pubblico in questione e pubblicato insieme al bando di gara." ></span>
+                  </div>
+                  <div class="radio">
+                     <span class="k-button fas fa-upload hoverable"></span> <label><input id="action6" name="action" data-target="#tab-country-selection" class="radiotab radioCa" type="radio" value="eo_create_espd_response" (change)="onItemImportCreate($event)"><span>{{"PAGE_AVVIO.COMPILARE" | translate}}</span></label>
+                     <span title="Creare un nuovo file DGUE Response (DGUE di risposta)" ></span>
+                  </div>
+                  <div *ngIf="env == 'dev' && visibleHiddenFunction" class="radio">
+                     <span class="k-button fas fa-upload hoverable"></span> <label><input id="action7" name="action" data-target="#tab-country-selection" class="radiotab radioCa" type="radio" value="eo_json" (change)="onItemImportCreate($event)"><span>{{"PAGE_AVVIO.COMPILARE_DA_JSON" | translate}}</span></label>
+                     <span title=""></span>
+                  </div>
+               </div>
+            </div>         
+            <div class="tab-content" *ngIf="showOptionImportCreate">
+               <div class="tab-pane" id="tab-single-upload" style="display: block;">
+                  <h3>
+                     {{"PAGE_AVVIO.CARICARE" | translate}}
+                  </h3>
+                  {{"PAGE_AVVIO.CARICARE_XML" | translate}}
+                  <input #attachments id="attachments" name="attachments" type="file" value=""  (change)="manageFileSelect($event)">               
+               </div>
+               <div class="error-panel error-panel-avvio" #errorspanel></div>
+            </div>
+         </div>   
+         <div *ngIf='showOptionSA'>
+            <div class="tab-content" >
+               <div class="tab-pane" id="tab_eo" style="display: block;">  
+                  <h3>
+                     {{"PAGE_AVVIO.AZIONI" | translate}}
+                  </h3>                           
+                  <div class="radio">
+                     <span class="k-button fas fa-upload hoverable"></span> <label><input id="action4" name="action" data-target="#tab-single-upload" class="radiotab radioCa" type="radio" value="sa_new_espd" (change)="onItemImportCreate($event)"><span>{{"PAGE_AVVIO.NUOVO_SA" | translate}}</span></label>
+                     <span title=""></span>                   
+                  </div>
+                  <div class="radio">
+                     <span class="k-button fas fa-upload hoverable"></span> <label><input id="action4" name="action" data-target="#tab-single-upload" class="radiotab radioCa" type="radio" value="sa_import_espd" (change)="onItemImportCreate($event,'SA')"><span>{{"PAGE_AVVIO.MODIFICA_SA" | translate}}</span></label>
+                     <span title=""></span>
+                  </div>
+                  <div *ngIf="env == 'dev' && visibleHiddenFunction" class="radio">
+                     <span class="k-button fas fa-upload hoverable"></span> <label><input id="action4" name="action" data-target="#tab-single-upload" class="radiotab radioCa" type="radio" value="sa_json" (change)="onItemImportCreate($event,'SA')"><span>{{"PAGE_AVVIO.COMPILARE_DA_JSON" | translate}}</span></label>
+                     <span title=""></span>                   
+                  </div>
+               </div>
+            </div>
+            <div class="tab-content" *ngIf="showOptionImportCreate">
+               <div class="tab-pane" id="tab-single-upload" style="display: block;">
+                  <h3>
+                     {{"PAGE_AVVIO.CARICARE" | translate}}
+                  </h3>
+                  {{"PAGE_AVVIO.CARICARE_XML" | translate}}
+                  <input #attachments id="attachments" name="attachments" type="file" value=""  (change)="manageFileSelect($event)">               
+               </div>
+               <div class="error-panel error-panel-avvio" #errorspanel></div>            
+            </div>         
+            
+         </div>   
+      </div>
+      <div class="warning-panel" #warningspanel></div>
+      <div class="loader theme-showcase" *ngIf="isLoading">
+         <div class="loading-mask"></div>
+         <div class="loading-text">Caricamento in corso...</div>  
+      </div>
+</div>
+
+<app-navigation-button [nextPage]=nextPage [previousPage]=previousPage [nextCallback]= preNext [previousCallback]=prePrevious [selectUser]=selectUser [fromPortale]=fromPortale [pagename]=pagename></app-navigation-button>
+
+
+<div *ngIf="env == 'dev'" class="hidden-function" (click)="hiddenFunction()"></div>
+
+
+
+
+</div>
+
