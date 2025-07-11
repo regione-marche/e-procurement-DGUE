@@ -1,61 +1,60 @@
-# This repository adheres to the publiccode.yml standard by including this 
-# metadata file that makes public software easily discoverable.
-# More info at https://github.com/italia/publiccode.yml
-
-publiccodeYmlVersion: '0.2'
+publiccodeYmlVersion: 0.4.0
+name: DGUE
 applicationSuite: e-procurement GT-SUAM
+url: https://github.com/regione-marche/e-procurement-DGUE.git
+releaseDate: 2025-07-10
+platforms:
+  - web
 categories:
   - procurement
-dependsOn:
-  open:
-    - name: Java
-      optional: false
-      version: OpenJDK-11.0.12
-      versionMax: '11'
-      versionMin: '11'
-description:
-  it:
-    features:
-      - Compilazione
-      - Generazione XML
-    genericName: e-procurement platform
-    longDescription: |
-      Compilazione dei dati e generazione del file XML eDGUE-it
-    shortDescription: Compilazione dei dati e generazione del file XML eDGUE-it
 usedBy:
   - Regione Marche
 developmentStatus: stable
-it:
-  conforme:
-    gdpr: false
-    lineeGuidaDesign: false
-    misureMinimeSicurezza: true
-    modelloInteroperabilita: false
-  countryExtensionVersion: '0.2'
-  piattaforme:
-    anpr: false
-    cie: false
-    pagopa: false
-    spid: false
-  riuso:
-    codiceIPA: r_marche
+softwareType: standalone/web
+description:
+  it:
+    genericName: e-procurement platform
+    shortDescription: Compilazione dei dati e generazione del file XML eDGUE-it
+    longDescription: >
+      Compilazione, verifica e validazione dei dati e generazione del file XML
+      DGUE Request prodotti dalla Stazione Appaltante e XML DGUE Response
+      prodotti dagli Operatori Economici
+    features:
+      - Compilazione
+      - Generazione XML
 legal:
-  license: Apache-2.0
+  license: EUPL-1.2
   mainCopyrightOwner: Maggioli S.p.A.
   repoOwner: Regione Marche
-localisation:
-  availableLanguages:
-    - it
-  localisationReady: false
 maintenance:
+  type: contract
   contractors:
     - name: MAGGIOLI SPA
-      until: '2025-12-31'
-      website: 'https://www.maggioli.com'
-  type: contract
-name: DBScheduler
-platforms:
-  - web
-releaseDate: '2025-07-10'
-softwareType: standalone/web
-url: 'https://github.com/regione-marche/e-procurement-DGUE.git'
+      until: 2027-06-30
+      email: appalti.eprocurement@maggioli.it
+      website: https://www.maggioli.com
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - it
+dependsOn:
+  open:
+    - name: Java
+      versionMin: "11"
+      versionMax: "11"
+      version: OpenJDK-11.0.12
+      optional: false
+it:
+  countryExtensionVersion: "0.2"
+  conforme:
+    lineeGuidaDesign: false
+    modelloInteroperabilita: false
+    misureMinimeSicurezza: true
+    gdpr: false
+  piattaforme:
+    spid: false
+    cie: false
+    anpr: false
+    pagopa: false
+  riuso:
+    codiceIPA: r_marche
